@@ -55,7 +55,7 @@ a {
     flex-direction: column;
     gap: 5px;
     align-self: center;
-    margin-top: 80px;
+    margin-top: 150px;
 }
 
 .introduction-text-section {
@@ -65,7 +65,7 @@ a {
     gap: 20px;
     min-width: 600px;
     min-height: 70px;
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 700;
     text-underline-position: under;
 }
