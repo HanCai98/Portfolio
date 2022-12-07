@@ -1,0 +1,118 @@
+/* set border-box (so that css uses a more reasonable box model, and so it’s like every other platform) */
+*, *::before, *::after { 
+    box-sizing: border-box;
+}
+
+/* get rid of default margins which vary depending on browser anyway, just set it yourself later*/
+* {
+    margin: 0;
+}
+
+/* media elements are replaced elements which have a width based on the media, so we prevent it from expanding beyond its container, and take up a row */
+img, picture, video, canvas, svg { 
+    display: block;
+    max-width: 100%;
+}
+
+/* make tables look like spreadsheets and less like a spaced-out grid */
+table { 
+    border-collapse: collapse; border-spacing: 0;
+}
+
+a { 
+    text-decoration: none; 
+}
+
+.flex-container-row {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    background-image: linear-gradient(to right, #8360c3, #2ebf91);
+}
+
+.navigation-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 35px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bolder;
+    min-width: 350px;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-self: center;
+    margin-top: 80px;
+}
+
+.introduction-text-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    min-width: 600px;
+    min-height: 70px;
+    font-size: 30px;
+    font-weight: 700;
+    text-underline-position: under;
+}
+
+.work-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    margin-top: 80px;
+}
+
+.work {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+    max-width: 700px;
+}
+
+.work-title {
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.work-description {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.grow img{
+    transition: 1s ease;
+}
+    
+.grow img:hover{
+    -webkit-transform: scale(1.07);
+    -ms-transform: scale(1.07);
+    transform: scale(1.07);
+    transition: 1s ease;
+}
+
+.blur img{
+    transition: 1s ease;
+}
+    
+.blur img:hover {
+    -webkit-filter: blur(5px);
+    transition: 1s ease;
+}
+
+    
