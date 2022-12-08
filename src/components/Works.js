@@ -10,12 +10,12 @@ const Works = (props) => {
         <div className = "works-flex-container">
             <div className = "works-navigation-bar">
                 <div>
-                    <p><a href="/">Smart Fox</a></p>
+                    <p><a href="/" style={{color: 'white'}}>Smart Fox</a></p>
                 </div>
 
                 <div className = "works-about">
-                    <p><a href="/">Home</a></p>
-                    <p><a href="https://cs.brown.edu/" target = "_blank" rel="noreferrer">Graduate School</a></p>
+                    <p><a href="/" style={{color: 'white'}}>Home</a></p>
+                    <p><a href="https://cs.brown.edu/" target = "_blank" rel="noreferrer" style={{color: 'white'}}>Graduate School</a></p>
                 </div>
             </div>
 
@@ -41,7 +41,7 @@ const Works = (props) => {
                 </div>
 
                 <di className = "works-section">
-                    <div className = "work grow blur">
+                    <div className = "work grow blur" style={{marginRight:"9.5%"}}>
                         <img className='work-image' src="/images/bus.jpeg" alt='a bus with bike rack'/>
                         <div className="work-description">
 
@@ -50,14 +50,17 @@ const Works = (props) => {
 
                     <div className = "work grow blur">
                         <img className='work-image' src="/images/kindergarten.jpeg" alt='children smiling'/>
+                        <div className="work-description"></div>
                     </div>
 
-                    <div className = "work grow blur">
+                    <div className = "work grow blur" style={{marginRight:"9.5%"}}>
                         <img className='work-image' src="/images/bananas.png" alt='grocery delivery'/>
+                        <div className="work-description"></div>
                     </div>
 
                     <div className = "work grow blur">
                         <img className='work-image' src="/images/grocery.jpeg" alt='shopping at grocery store'/>
+                        <div className="work-description"></div>
                     </div>
                 </di>
             </div>
