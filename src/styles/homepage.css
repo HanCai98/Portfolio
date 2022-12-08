@@ -20,19 +20,23 @@ table {
 }
 
 a { 
-    text-decoration: none; 
+    text-decoration: none;
+    color: black;
 }
 
-.flex-container-row {
+.home-flex-container {
     display: flex;
     flex-direction: column;
     gap: 60px;
-    background-image: linear-gradient(to right, #8360c3, #2ebf91);
+    background-image: linear-gradient( 109.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1% );
     height: 100vh;
     width: 100%;
+    font-family: neue-haas-grotesk-display;
+    font-size: 32px;
+    font-weight: bolder;
 }
 
-.navigation-bar {
+.home-navigation-bar {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -46,8 +50,7 @@ a {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    font-weight: bolder;
-    min-width: 350px;
+    min-width: 400px;
 }
 
 .introduction {
@@ -65,7 +68,7 @@ a {
     gap: 20px;
     min-width: 600px;
     min-height: 70px;
-    font-size: 28px;
+    font-size: 30px;
     font-weight: 700;
     text-underline-position: under;
 }
@@ -74,10 +77,11 @@ button {
     background-color: black;
     color: white;
     font-size: 20px;
+    font-weight: bold;
     padding: 10px 60px;
     border-radius: 30px;
     border-style: solid;
-    margin: 70px 0px;
+    margin: 60px 0px;
     cursor: pointer;
     height: 60px;
 }

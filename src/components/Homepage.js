@@ -6,15 +6,15 @@ const Homepage = (props) => {
     const navigate = useNavigate();
 
     return (
-        <div className = "flex-container-row">
-            <div className = "navigation-bar">
+        <div className = "home-flex-container">
+            <div className = "home-navigation-bar">
                 <div>
-                    <h2><a href="/">Smart Fox</a></h2>
+                    <p><a href="/">Smart Fox</a></p>
                 </div>
 
                 <div className = "about">
-                    <h2><a href="/works">Works</a></h2>
-                    <h2><a href="https://cs.brown.edu/" target = "_blank">Graduate School</a></h2>
+                    <p><a href="/works">Works</a></p>
+                    <p><a href="https://cs.brown.edu/" target = "_blank" rel="noreferrer">Graduate School</a></p>
                 </div>
             </div>
 
@@ -24,7 +24,7 @@ const Homepage = (props) => {
                     <img src = "images/wave.gif" alt = "wave hand" width="auto" height="70" />
                 </div>
                 <div className = "introduction-text-section">
-                    <p>I'm a computer science master student at <u><a href="https://www.brown.edu/" target = "_blank">Brown University</a></u>.</p>
+                    <p>I'm a computer science master student at <u><a href="https://www.brown.edu/" target = "_blank" rel="noreferrer">Brown University</a></u>.</p>
                 </div>
                 <div className = "introduction-text-section">
                     <p>I'm also a passionate UI designer pursuing intuitive solutions.</p>

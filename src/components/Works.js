@@ -1,9 +1,23 @@
+import React from "react";
+import { useNavigate } from "react-router-dom";
 import '../styles/works.css'
 
-function Works(props) {
+const Works = (props) => {
+    const navigate = useNavigate();
+
+
     return (
-        <div>
-            <h1>success!</h1>
+        <div className = "works-flex-container">
+            <div className = "works-navigation-bar">
+                <div>
+                    <p><a href="/">Smart Fox</a></p>
+                </div>
+
+                <div className = "about">
+                    <p><a href="/">Home</a></p>
+                    <p><a href="https://cs.brown.edu/" target = "_blank" rel="noreferrer">Graduate School</a></p>
+                </div>
+            </div>
         </div>
     )
 }
