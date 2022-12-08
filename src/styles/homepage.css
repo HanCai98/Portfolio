@@ -70,4 +70,16 @@ a {
     text-underline-position: under;
 }
 
+button {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px 60px;
+    border-radius: 30px;
+    border-style: solid;
+    margin: 70px 0px;
+    cursor: pointer;
+    height: 60px;
+}
+
     
