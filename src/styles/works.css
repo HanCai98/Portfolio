@@ -24,15 +24,28 @@ a {
     color: black;
 }
 
+button {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 60px;
+    border-radius: 30px;
+    border-style: solid;
+    margin: 60px 0px;
+    cursor: pointer;
+    height: 60px;
+}
+
 .works-flex-container {
     display: flex;
     flex-direction: column;
     gap: 60px;
     background-image: linear-gradient(to right, #8360c3, #2ebf91);
-    height: 100vh;
+    height: 100%;
     width: 100%;
-    font-family: neue-haas-grotesk-display;
-    font-size: 32px;
+    font-family: Georgia, serif;
+    font-size: 28px;
     font-weight: bolder;
 }
 
@@ -45,31 +58,64 @@ a {
     margin-right: 80px;
 }
 
-.work-section {
+.works-about {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 400px;
+}
+
+.works-introduction {
     display: flex;
     flex-direction: column;
-    align-items: center;    
-    margin-top: 80px;
+    gap: 5px;
+    margin-left: 80px;
+    margin-top: 150px;
+}
+
+.works-introduction-title-section {
+    margin-top: 0px;
+    margin-bottom: 70px;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Georgia, serif;
+}
+
+.works-introduction-text-section {
+    font-size: 25px;
+    font-family: neue-haas-grotesk-text;
+    font-weight: 500;
+    max-width: 1200px;
+    line-height: 1.4;
+}
+
+.works-section {
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 150rem;
+    margin-top: 20%;
+    margin-bottom: 80px;
 }
 
 .work {
     display: flex;
     flex-direction: column;
-    margin-bottom: 80px;
-    max-width: 700px;
-}
-
-.work-title {
-    margin-top: 30px;
-    font-size: 25px;
-    font-weight: bold;
+    max-width: 40rem;
+    margin: 2rem 9rem 12rem 0rem;
 }
 
 
 .work-description {
-    margin-top: 20px;
-    font-size: 18px;
-    line-height: 30px;
+    width: 35rem;
+    height: 20rem;
+    background: none;
+    border: 1px solid #ccc;
+}
+
+.work-image {
+    width: 35rem;
+    height: auto;
 }
 
 .grow img{

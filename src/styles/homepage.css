@@ -24,6 +24,20 @@ a {
     color: black;
 }
 
+button {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 60px;
+    border-radius: 30px;
+    border-style: solid;
+    margin: 60px 0px;
+    cursor: pointer;
+    height: 60px;
+    font-family: neue-haas-grotesk-display;
+}
+
 .home-flex-container {
     display: flex;
     flex-direction: column;
@@ -31,8 +45,8 @@ a {
     background-image: linear-gradient( 109.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1% );
     height: 100vh;
     width: 100%;
-    font-family: neue-haas-grotesk-display;
-    font-size: 32px;
+    font-family: Georgia, serif;
+    font-size: 28px;
     font-weight: bolder;
 }
 
@@ -45,7 +59,7 @@ a {
     margin-right: 80px;
 }
 
-.about {
+.home-about {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -53,37 +67,23 @@ a {
     min-width: 400px;
 }
 
-.introduction {
+.home-introduction {
     display: flex;
     flex-direction: column;
     gap: 5px;
     align-self: center;
     margin-top: 150px;
+    font-family: neue-haas-grotesk-display;
 }
 
-.introduction-text-section {
+.home-introduction-text-section {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 20px;
+    gap: 40px;
     min-width: 600px;
     min-height: 70px;
     font-size: 30px;
     font-weight: 700;
     text-underline-position: under;
 }
-
-button {
-    background-color: black;
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-    padding: 10px 60px;
-    border-radius: 30px;
-    border-style: solid;
-    margin: 60px 0px;
-    cursor: pointer;
-    height: 60px;
-}
-
-    

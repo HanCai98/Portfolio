@@ -12,21 +12,21 @@ const Homepage = (props) => {
                     <p><a href="/">Smart Fox</a></p>
                 </div>
 
-                <div className = "about">
+                <div className = "home-about">
                     <p><a href="/works">Works</a></p>
                     <p><a href="https://cs.brown.edu/" target = "_blank" rel="noreferrer">Graduate School</a></p>
                 </div>
             </div>
 
-            <div class = "introduction">
-                <div className = "introduction-text-section">
+            <div class = "home-introduction">
+                <div className = "home-introduction-text-section">
                     <p>Hey, folks!</p>
                     <img src = "images/wave.gif" alt = "wave hand" width="auto" height="70" />
                 </div>
-                <div className = "introduction-text-section">
+                <div className = "home-introduction-text-section">
                     <p>I'm a computer science master student at <u><a href="https://www.brown.edu/" target = "_blank" rel="noreferrer">Brown University</a></u>.</p>
                 </div>
-                <div className = "introduction-text-section">
+                <div className = "home-introduction-text-section">
                     <p>I'm also a passionate UI designer pursuing intuitive solutions.</p>
                 </div>
 
