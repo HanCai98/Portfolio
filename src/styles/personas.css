@@ -59,7 +59,7 @@ ul {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    min-width: 400px;
+    min-width: 260px;
 }
 
 .personas-content {
@@ -82,7 +82,7 @@ ul {
 .personas-flex-container-col-section {
     display: flex;
     flex-direction: column;
-    padding: 50px 0px 47px 32px;
+    padding: 0px 0px 47px 32px;
     max-width: 900px;
 }
 

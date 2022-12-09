@@ -11,7 +11,7 @@ const Personas = (props) => {
 
                 <div className = "personas-about">
                     <p><a href="/">Home</a></p>
-                    <p><a href="https://cs.brown.edu/" target = "_blank" rel="noreferrer">Graduate School</a></p>
+                    <p><a href="/works">Works</a></p>
                 </div>
             </div>
 
@@ -33,7 +33,7 @@ const Personas = (props) => {
     
                 <div className = "personas-flex-container-col-section">
                     <div id="Context">
-                        <h1 className = "personas-section-title-font">Context</h1>
+                        <h1 className = "personas-section-title-font" style = {{ paddingTop : "50px" }}>Context</h1>
                         <img src = "images/bikeRack.png" alt = "Bike Rack On the Bus" width="900px" height="auto" style = {{ paddingTop : "50px" }}/>
                         <p className = "personas-section-text-font" style = {{ paddingTop : "40px" }}>The bike rack on the bus is a common interface in public view. It is a device to which bicycles can be securely attached for parking purposes when passengers taking the bus. In this project, we are going to discuss the user experiences of this interface. Some observations about interactions between this interface and real users can be found <a href="#observations">here</a>. The interview questions and interview summary regarding users' experiences with this interface can be found <a href = "#interview">here</a>.</p>
                     </div>
