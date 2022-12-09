@@ -42,7 +42,9 @@ const Works = (props) => {
 
                 <di className = "works-section">
                     <div className = "work grow blur" style={{marginRight:"9.5%"}}>
-                        <img className='work-image' src="/images/bus.jpeg" alt='a bus with bike rack'/>
+                        <a href="/personas">
+                            <img className='work-image' src="/images/bus.jpeg" alt='a bus with bike rack'/>
+                        </a>
                         <div className="work-description">
                             <div className="work-title">
                                 <p>Personas & Storyboarding</p>    
@@ -61,7 +63,9 @@ const Works = (props) => {
                     </div>
 
                     <div className = "work grow blur">
-                        <img className='work-image' src="/images/kindergarten.jpeg" alt='children smiling'/>
+                        <a href="/redesign">
+                            <img className='work-image' src="/images/kindergarten.jpeg" alt='children smiling'/>
+                        </a>
                         <div className="work-description">
                             <div className="work-title">
                                 <p>Responsive Redesign</p>    
@@ -80,7 +84,9 @@ const Works = (props) => {
                     </div>
 
                     <div className = "work grow blur" style={{marginRight:"9.5%"}}>
-                        <img className='work-image' src="/images/bananas.png" alt='grocery delivery'/>
+                        <a href="/iterative-design">
+                            <img className='work-image' src="/images/bananas.png" alt='grocery delivery'/>
+                        </a>
                         <div className="work-description">
                             <div className="work-title">
                                 <p>Iterative Design</p>    
@@ -98,7 +104,9 @@ const Works = (props) => {
                     </div>
 
                     <div className = "work grow blur">
-                        <img className='work-image' src="/images/grocery.jpeg" alt='shopping at grocery store'/>
+                        <a href="/development">
+                            <img className='work-image' src="/images/grocery.jpeg" alt='shopping at grocery store'/>
+                        </a>
                         <div className="work-description">
                             <div className="work-title">
                                 <p>React Development</p>    
