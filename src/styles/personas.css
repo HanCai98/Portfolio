@@ -1,0 +1,121 @@
+/* set border-box (so that css uses a more reasonable box model, and so it’s like every other platform) */
+*, *::before, *::after { 
+    box-sizing: border-box;
+}
+
+/* get rid of default margins which vary depending on browser anyway, just set it yourself later*/
+* {
+    margin: 0;
+}
+
+/* media elements are replaced elements which have a width based on the media, so we prevent it from expanding beyond its container, and take up a row */
+img, picture, video, canvas, svg { 
+    display: block;
+    max-width: 100%;
+}
+
+/* make tables look like spreadsheets and less like a spaced-out grid */
+table { 
+    border-collapse: collapse; border-spacing: 0;
+}
+
+a { 
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    padding-left: 1em;
+}
+
+.personas-container {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to left, #e5eae8, #9ec5f4);
+    height: 100%;
+    width: 100%;
+    font-family: Georgia, serif;
+    font-size: 28px;
+    font-weight: bolder;
+    padding-bottom: 80px;
+}
+
+.personas-navigation-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 80px;
+    padding-right: 80px;
+    border-bottom: 2px solid #7aa4d8;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+}
+
+.personas-about {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 400px;
+}
+
+.personas-content {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    gap: 10px 20px;
+    padding: 20px;
+}
+
+.personas-flex-container-col-meta {
+    display: flex;
+    position: sticky;
+    top: 0;
+    align-self: flex-start;
+    flex-direction: column;
+    padding: 50px 170px 50px 50px;
+}
+
+.personas-flex-container-col-section {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0px 47px 32px;
+    max-width: 900px;
+}
+
+.personas-meta-title-font {
+    font-size: 28px;
+    font-family: Georgia, serif;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 1.2em;
+    letter-spacing: 0px;
+    margin-top: 0;
+}
+
+.personas-meta-text-font {
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: neue-haas-grotesk-text;
+    line-height: 1.6em;
+}
+
+.personas-section-title-font {
+    font-size: 28px;
+    font-family: Georgia, serif;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 1.2em;
+    letter-spacing: 0px;
+    margin-top: 0;
+}
+
+.personas-section-text-font {
+    font-size: 19px;
+    font-family: neue-haas-grotesk-text;
+    font-weight: 500;
+    line-height: 1.6em;
+}
