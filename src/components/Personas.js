@@ -34,13 +34,13 @@ const Personas = (props) => {
                 <div className = "personas-flex-container-col-section">
                     <div id="Context">
                         <h1 className = "personas-section-title-font" style = {{ paddingTop : "50px" }}>Context</h1>
-                        <img src = "images/bikeRack.png" alt = "Bike Rack On the Bus" width="900px" height="auto" style = {{ paddingTop : "50px" }}/>
+                        <img src = "images/personas/bikeRack.png" alt = "Bike Rack On the Bus" width="900px" height="auto" style = {{ paddingTop : "50px" }}/>
                         <p className = "personas-section-text-font" style = {{ paddingTop : "40px" }}>The bike rack on the bus is a common interface in public view. It is a device to which bicycles can be securely attached for parking purposes when passengers taking the bus. In this project, we are going to discuss the user experiences of this interface. Some observations about interactions between this interface and real users can be found <a href="#observations">here</a>. The interview questions and interview summary regarding users' experiences with this interface can be found <a href = "#interview">here</a>.</p>
                     </div>
 
                     <div id="Sketch & Description">
                         <h1 className = "personas-section-title-font" style = {{ paddingTop : "80px" }}>Sketch & Description</h1>
-                        <img src = "images/Sketch.jpg" alt = "Sketch of the Bike Rack" width="900px" height="auto" style = {{ paddingTop : "50px" }}/>
+                        <img src = "images/personas/Sketch.jpg" alt = "Sketch of the Bike Rack" width="900px" height="auto" style = {{ paddingTop : "50px" }}/>
                         <p className = "personas-section-text-font" style = {{ paddingTop : "40px" }}>This interface is used to provide a place for the bus passengers to place their bike safely and stably.</p>
                         <p className = "personas-section-text-font" style = {{ paddingTop : "4px" }}>When a passenger wants to use the bike rack on the bus, he/she needs to first squeeze the release handle and pull it to low, just as shown in the left image above. One of the key interactive components here is the squeeze handle, passengers can only pull the bike rack down when they squeeze the handle.
                             Then passenger can place the bike’s wheels in the front truck. Once the bike is mounted, he/she needs to raise the support arm up and over the front tire to make sure the arm is securely placed at the top close to the bike, just as shown in the right image above. Another key interactive component here is the raise support arm, which is used to secure the bike on the rack.
@@ -91,16 +91,16 @@ const Personas = (props) => {
 
                     <div id="Personas">
                         <h1 className = "personas-section-title-font" style = {{ paddingTop : "80px" }}>Personas</h1>
-                        <img src = "images/Empathy Map1.png" alt = "Empathy Map 1" width="900px" height="auto" style = {{ paddingTop : "50px" }}/>
+                        <img src = "images/personas/Empathy Map1.png" alt = "Empathy Map 1" width="900px" height="auto" style = {{ paddingTop : "50px" }}/>
                         <p className = "personas-section-text-font" style = {{ paddingTop : "40px" }}>The interface problem that Jason faces is that he doesn't know how to use this interface when using it for the first time. Jason represents a type of users who have no experience to use the bike rack on the bus and have no idea how to use it. Like this part of the users, Jason is nervous for not knowing how to use this interface and he is also embarrassed when get stuck.</p>
 
-                        <img src = "images/Empathy Map2.png" alt = "Empathy Map 1" width="900px" height="auto" style = {{ paddingTop : "50px" }}/>
+                        <img src = "images/personas/Empathy Map2.png" alt = "Empathy Map 1" width="900px" height="auto" style = {{ paddingTop : "50px" }}/>
                         <p className = "personas-section-text-font" style = {{ paddingTop : "40px" }}>The interface problem that Kevin faces is that the bike rack on the bus might not have room for his own bike. Kevin represnets a type of users who use this interface often but still face some potential problem from this interface. They can place their bikes on the rack in a very short time, but sometimes they will worry about the coming bus may have no room for their own bikes.</p>
                     </div>
 
                     <div id="Storyboard">
                         <h1 className = "personas-section-title-font" style = {{ paddingTop : "80px" }}>Storyboard</h1>
-                        <img src = "images/storyboard.png" alt = "Storyboard" width="900px" height="auto" style = {{ paddingTop : "50px" }}/>
+                        <img src = "images/personas/storyboard.png" alt = "Storyboard" width="900px" height="auto" style = {{ paddingTop : "50px" }}/>
                     </div>
 
                 </div>
