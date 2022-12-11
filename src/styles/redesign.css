@@ -6,15 +6,16 @@ li {
     padding-top: 1em;
 }
 
-a { 
-    text-decoration: none; 
-}
-
 figcaption {
     font-size: 19px;
     font-family: neue-haas-grotesk-text;
     font-weight: 500;
     line-height: 1.6em;
+}
+
+.redesign-a {
+    color: black;
+    text-decoration: none; 
 }
 
 .redesign-container {

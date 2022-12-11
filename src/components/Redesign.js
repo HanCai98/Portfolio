@@ -7,12 +7,12 @@ const Redesign = (props) => {
         <div className="redesign-container">
             <div className = "redesign-navigation-bar">
                 <div>
-                    <p><a href="/">Smart Fox</a></p>
+                    <p><a className="redesign-a" href="/">Smart Fox</a></p>
                 </div>
 
                 <div className = "redesign-about">
-                    <p><a href="/">Home</a></p>
-                    <p><a href="/works">Works</a></p>
+                    <p><a className="redesign-a" href="/">Home</a></p>
+                    <p><a className="redesign-a" href="/works">Works</a></p>
                 </div>
             </div>
 
@@ -21,11 +21,12 @@ const Redesign = (props) => {
                     <h1 className = "redesign-meta-title-font">Responsive Redesign</h1>
                     <div className = "redesign-meta-text-font">
                         <ul>
-                            <li><a href = "#usability-problems">Analyze and identify flaws</a></li>
-                            <li><a href = "#low-fidelity-wireframes">Low-fidelity for various screen sizes</a></li>
-                            <li><a href = "#design-guide">Visual design style guide</a></li>
-                            <li><a href = "#high-fidelity-prototypes">High-fidelity for various screen sizes</a></li>
-                            <li><a href = "#responsive-redesign">Responsive website</a></li>
+                            <li><a className="redesign-a" href = "#context">Context</a></li>
+                            <li><a className="redesign-a" href = "#usability-problems">Analyze and identify flaws</a></li>
+                            <li><a className="redesign-a" href = "#low-fidelity-wireframes">Low-fidelity for various screen sizes</a></li>
+                            <li><a className="redesign-a" href = "#design-guide">Visual design style guide</a></li>
+                            <li><a className="redesign-a" href = "#high-fidelity-prototypes">High-fidelity for various screen sizes</a></li>
+                            <li><a className="redesign-a" href = "#responsive-redesign">Responsive website</a></li>
                         </ul>
                     </div>
                 </div>
@@ -33,7 +34,11 @@ const Redesign = (props) => {
                 <div className = "redesign-flex-container-col-section">
                     <div>
                         <h1 id = "context" className = "redesign-section-title-font" style = {{ paddingTop : "50px" }}>Context</h1>
-                        <p className = "redesign-section-text-font" style = {{ paddingTop : "50px" }}>In this project, I practiced the workflow of redesigning a simple website. The webpage that I choose to analyze and redesign is the homepage of the kindergarten in north providence school district. You can visit this webpage by clicking <a href = "http://nprovschools.org/kindergarten" target = "_blank" rel="noreferrer">here</a>. There are a few screenshots for this webpage shown below.</p>
+                        <p className = "redesign-section-text-font" style = {{ paddingTop : "50px" }}>
+                            The goal of this project is to practice the workflow of redesigning a simple website.
+                            Start from analyzing and identifying flaws in an existing interface, I create low-fidelity and high-fidelity prototypes for various screen sizes, and then build a responsive website based on those prototypes.
+                            The webpage that I choose is the homepage of a kindergarten in north providence school district. You can visit this webpage by clicking <b><a href = "http://nprovschools.org/kindergarten" target = "_blank" rel="noreferrer">here</a></b>. There are a few screenshots for this webpage shown below.
+                        </p>
                         
                         <figure style = {{paddingTop: "50px"}}>
                             <img src = "images/redesign/original-1.png" alt = "first part of the webpage on desktop" width = "800px" height = "auto" style = {{ border : "2px solid #000000" }} />
@@ -63,14 +68,14 @@ const Redesign = (props) => {
                             <li>Learnability: For new users, this website is not very easy to learn, they need to spend some time to get familiar with the layout of the website. They might need extra help if they want to find some information of the kindergarten, e.g., how to login with different accounts.</li>
                             <li>Memorability: For casual users, some functionalities of this website are not very easy to recall. For example, it’s very hard to remember where to find the important news and important files of the kindergarten.</li>
                             <li>
-                                Conceptual Model: This webpage has poor affordances that could mislead users to the wrong actions. For example, in the navigation bar, thre are four choices: <b>EMAIL</b>, <b>SKYWARD</b>, <b>FACILITY DUDE</b>, <b>FRONTLINE</b>. They are actually four different ways to login to the kindergarten's system, and should not list as the same level with <b>Administration</b>, <b>Families</b>, <b>etc</b>.
-                                It is more reasonable to list them under a choice called <b>Login</b>.
+                                Conceptual Model: This webpage has poor affordances that could mislead users to the wrong actions. For example, in the navigation bar, thre are four choices: EMAIL, SKYWARD, FACILITY DUDE, FRONTLINE. They are actually four different ways to login to the kindergarten's system, and should not list as the same level with Administration, Families, etc.
+                                It is more reasonable to list them under a choice called Login.
                             </li>
                         </ul>
                     </div>
 
                     <div>
-                        <h1 id = "accessibility-problems" className = "redesign-section-title-font">Identify Accessibility Problems</h1>
+                        <h1 id = "accessibility-problems" className = "redesign-section-title-font" style = {{ paddingTop : "80px" }}>Identify Accessibility Problems</h1>
                         <figure style = {{paddingTop: "50px"}}>
                             <img src = "images/redesign/problems.png" alt = "accessibility problems of the webpage" width = "800px" height="auto" style = {{ border : "2px solid #000000" }} />
                             <figcaption style= {{paddingTop: "10px", width: "804px", textAlign: "center"}}><i>Figure4: Accessibility problems of the webpage detected by using <a href = "https://wave.webaim.org/" target = "_blank" rel="noreferrer">WAVE</a></i></figcaption>

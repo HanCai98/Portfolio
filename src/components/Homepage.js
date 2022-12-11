@@ -9,12 +9,12 @@ const Homepage = (props) => {
         <div className = "home-flex-container">
             <div className = "home-navigation-bar">
                 <div>
-                    <p><a href="/">Smart Fox</a></p>
+                    <p><a className="home-a" href="/">Smart Fox</a></p>
                 </div>
 
                 <div className = "home-about">
-                    <p><a href="/works">Works</a></p>
-                    <p><a href="https://cs.brown.edu/" target = "_blank" rel="noreferrer">Graduate School</a></p>
+                    <p><a className="home-a" href="/works">Works</a></p>
+                    <p><a className="home-a" href="https://cs.brown.edu/" target = "_blank" rel="noreferrer">Graduate School</a></p>
                 </div>
             </div>
 
@@ -24,7 +24,7 @@ const Homepage = (props) => {
                     <img src = "images/wave.gif" alt = "wave hand" width="auto" height="70" />
                 </div>
                 <div className = "home-introduction-text-section">
-                    <p>I'm a computer science master student at <u><a href="https://www.brown.edu/" target = "_blank" rel="noreferrer">Brown University</a></u>.</p>
+                    <p>I'm a computer science master student at <u><a className="home-a" href="https://www.brown.edu/" target = "_blank" rel="noreferrer">Brown University</a></u>.</p>
                 </div>
                 <div className = "home-introduction-text-section">
                     <p>I'm also a passionate UI designer pursuing intuitive solutions.</p>
