@@ -41,15 +41,16 @@ const Personas = () => {
                     <div id="Sketch & Description" style={{paddingBottom: "30px"}}>
                         <h1 className = "personas-section-title-font" style = {{ paddingTop : "50px" }}>Sketch & Description</h1>
                         <img src = "images/personas/Sketch.jpg" alt = "Sketch of the Bike Rack" width="900px" height="auto" style = {{ paddingTop : "50px" }}/>
-                        <p className = "personas-section-text-font" style = {{ paddingTop : "40px" }}>This interface is used to provide a place for the bus passengers to place their bike safely and stably.</p>
-                        <p className = "personas-section-text-font" style = {{ paddingTop : "4px" }}>When a passenger wants to use the bike rack on the bus, he/she needs to first squeeze the release handle and pull it to low, just as shown in the left image above. One of the key interactive components here is the squeeze handle, passengers can only pull the bike rack down when they squeeze the handle.
+                        <p className = "personas-section-text-font" style = {{ paddingTop : "40px" }}>
+                            This interface is used to provide a place for the bus passengers to place their bike safely and stably.
+                            When a passenger wants to use the bike rack on the bus, he/she needs to first squeeze the release handle and pull it to low, just as shown in the left image above. One of the key interactive components here is the squeeze handle, passengers can only pull the bike rack down when they squeeze the handle.
                             Then passenger can place the bike’s wheels in the front truck. Once the bike is mounted, he/she needs to raise the support arm up and over the front tire to make sure the arm is securely placed at the top close to the bike, just as shown in the right image above. Another key interactive component here is the raise support arm, which is used to secure the bike on the rack.
-                            </p>
+                        </p>
                     </div>
 
                     <div id="Observations" style={{paddingBottom: "30px"}}>
                         <h1 className = "personas-section-title-font" style = {{ paddingTop : "50px" }}>Observations</h1>
-                        <ul className = "personas-section-text-font" style = {{ paddingTop : "40px" }}>
+                        <ul className = "personas-section-text-font" style = {{ paddingTop : "30px" }}>
                             <li style = {{ paddingTop : "10px" }}>Some of the passengers with bike can place and fasten the bike in less than 1 minute.</li>
                             <li style = {{ paddingTop : "10px" }}>Some of the passengers with bike foget to place the support arm on the bike's front wheel.</li>
                             <li style = {{ paddingTop : "10px" }}>A few of the passgengers with bike don't even know how to pull down the bike rack, they have to ask help from the bus driver.</li>
@@ -59,33 +60,33 @@ const Personas = () => {
 
                     <div id="Interview-Questions" style={{paddingBottom: "30px"}}>
                         <h1 className = "personas-section-title-font" style = {{ paddingTop : "50px" }}>Interview Questions</h1>
-                        <p className = "personas-section-text-font" style = {{ paddingTop : "40px" }}>Q1: Have you ever taken the bus with your bike?</p>
-                        <p className = "personas-section-text-font" style = {{ paddingTop : "25px" }}><i>If the answer for the first question is <b>yes</b>, we follow the steps below:</i></p>
-                        <p className = "personas-section-text-font" style = {{ paddingTop : "10px" }}>Q2: Where did you place your bike when you took the bus?</p>
-                        <p className = "personas-section-text-font" style = {{ paddingTop : "10px" }}>Q3: What is your first reaction to the bike rack?</p>
-                        <p className = "personas-section-text-font" style = {{ paddingTop : "10px" }}>Q4: Have you ever met with any challenges when use the bike rack on the bus?</p>
-                        <p className = "personas-section-text-font" style = {{ paddingTop : "10px" }}>Q5: Do you feel this interface is easy to use or not?</p>
+                        <p className = "personas-section-text-font" style = {{ paddingTop : "30px" }}>Q1: Have you ever taken the bus with your bike?</p>
+                        <p className = "personas-section-text-font" style = {{ paddingTop : "30px" }}><i>If the answer for the first question is <b>yes</b>, we follow the steps below:</i></p>
+                        <p className = "personas-section-text-font" style = {{ paddingTop : "15px" }}>Q2: Where did you place your bike when you took the bus?</p>
+                        <p className = "personas-section-text-font" style = {{ paddingTop : "15px" }}>Q3: What is your first reaction to the bike rack?</p>
+                        <p className = "personas-section-text-font" style = {{ paddingTop : "15px" }}>Q4: Have you ever met with any challenges when use the bike rack on the bus?</p>
+                        <p className = "personas-section-text-font" style = {{ paddingTop : "15px" }}>Q5: Do you feel this interface is easy to use or not?</p>
 
-                        <p className = "personas-section-text-font" style = {{ paddingTop : "45px" }}><i>If the answer for the first question is <b>no</b>, we follow the steps below:</i></p>
-                        <p className = "personas-section-text-font" style = {{ paddingTop : "10px" }}>Q2: What is your first reaction to this interface (showing the sketch to the interviewee)?</p>
-                        <p className = "personas-section-text-font" style = {{ paddingTop : "10px" }}>Q3: Will you use this interface if you need to take the bus with your bike in the future?</p>
+                        <p className = "personas-section-text-font" style = {{ paddingTop : "30px" }}><i>If the answer for the first question is <b>no</b>, we follow the steps below:</i></p>
+                        <p className = "personas-section-text-font" style = {{ paddingTop : "15px" }}>Q2: What is your first reaction to this interface (showing the sketch to the interviewee)?</p>
+                        <p className = "personas-section-text-font" style = {{ paddingTop : "15px" }}>Q3: Will you use this interface if you need to take the bus with your bike in the future?</p>
                         
                     </div>
 
 
                     <div id="Interview-Summary" style={{paddingBottom: "30px"}}>
                         <h1 className = "personas-section-title-font" style = {{ paddingTop : "50px" }}>Interview Summary</h1>
-                        <p className = "personas-section-text-font" style = {{ paddingTop : "40px" }}><i>For users who have taken the bus with a bike:</i></p>
-                        <ul className = "personas-section-text-font" style = {{ paddingTop : "20px" }}>
-                            <li>They put the bike on the bike rack at most times.</li>
+                        <p className = "personas-section-text-font" style = {{ paddingTop : "30px" }}><i>For users who have taken the bus with a bike:</i></p>
+                        <ul className = "personas-section-text-font">
+                            <li style = {{ paddingTop : "30px" }}>They put the bike on the bike rack at most times.</li>
                             <li style = {{ paddingTop : "10px" }}>Sometimes, there is no room to place their own bikes on the bike rack.</li>
                             <li style = {{ paddingTop : "10px" }}>Most of them have no idea about how to use the bike rack at the first time, but after the first time, they find this interface is easy to use.</li>
                         </ul>
 
-                        <p className = "personas-section-text-font" style = {{ paddingTop : "40px" }}><i>For users who have <b>never</b> taken the bus with a bike:</i></p>
-                        <ul className = "personas-section-text-font" style = {{ paddingTop : "20px"}}>
-                            <li>For some of users, the imagination of being embarrassed for not knowing how to use the bike rack, or their bike get crushed under bus tires, doesn't allow them to use this interface.</li>
-                            <li style = {{ paddingTop : "10px" }}>They think this interface is easy to use with the sketch and introduction and they will try to use it in the future.</li>
+                        <p className = "personas-section-text-font" style = {{ paddingTop : "30px" }}><i>For users who have <b>never</b> taken the bus with a bike:</i></p>
+                        <ul className = "personas-section-text-font">
+                            <li style = {{ paddingTop : "30px"}}>For some of users, the imagination of being embarrassed for not knowing how to use the bike rack, or their bike get crushed under bus tires, doesn't allow them to use this interface.</li>
+                            <li style = {{ paddingTop : "15px" }}>They think this interface is easy to use with the sketch and introduction and they will try to use it in the future.</li>
                         </ul>
                     </div>
 
