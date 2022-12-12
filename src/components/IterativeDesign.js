@@ -18,7 +18,7 @@ const IterativeDesign = () => {
 
             <div className = "iterative-flex-container-row">
                 <div className = "iterative-flex-container-col-meta">
-                    <h1 className = "iterative-meta-title-font"><a className="redesign-a" href="/iterative-design">Iterative Design</a></h1>
+                    <h1 className = "iterative-meta-title-font"><a className="iterative-a" href="/iterative-design">Iterative Design</a></h1>
                     <div className = "iterative-meta-text-font">
                         <ul>
                             <li style={{paddingTop: "20px"}}><a className = "iterative-a" href = "#Introduction">Introduction</a></li>
@@ -41,18 +41,16 @@ const IterativeDesign = () => {
                         </figure>
 
                         <p className = "iterative-section-text-font" style = {{ paddingTop : "40px" }}>Bananas is a grocery delivery startup based in Jakarta, Indonesia where you can order groceries and get it delivered in minutes. 
-                            Its aim is to deliver groceries directly to user’s home within minutes and at supermarket prices. You can find more details from its <a href = "https://www.bananas.id/" target = "_blank" rel="noreferrer">website</a>.
-                        </p>
-                        <p className = "iterative-section-text-font">
+                            Its aim is to deliver groceries directly to user’s home within minutes and at supermarket prices. You can find more details from its <b><a href = "https://www.bananas.id/" target = "_blank" rel="noreferrer">website</a></b>.
                             In this project, our group will go through the full process of mocking up a solution to the Bananas's concept and design a mobile interactive interface for it.
                         </p>
                     </div>
 
      
 
-                    <div>
-                        <h1 id = "Initial-Sketches" className = "iterative-section-title-font">Initial Sketches</h1>
-                        <p className = "iterative-section-text-font">
+                    <div style={{paddingBottom: "30px"}}>
+                        <h1 id = "Initial-Sketches" className = "iterative-section-title-font" style = {{ paddingTop : "50px" }}>Initial Sketches</h1>
+                        <p className = "iterative-section-text-font" style = {{ paddingTop : "30px" }}>
                             At the first stage, we brainstormed 4 different possible designs for Bananas's mobile app which are shown below. 
                             Each team member designed the initial sketch by himself/herself, in order to reflect as wide a variety of screens and layouts as possible to get the ideas flowing. 
                         </p>
@@ -80,9 +78,9 @@ const IterativeDesign = () => {
 
              
 
-                    <div>
-                        <h1 id = "Combined-Wireframe" className = "iterative-section-title-font">Combined Wireframe</h1>
-                        <p className = "iterative-section-text-font">
+                    <div style={{paddingBottom: "30px"}}>
+                        <h1 id = "Combined-Wireframe" className = "iterative-section-title-font" style = {{ paddingTop : "50px" }}>Combined Wireframe</h1>
+                        <p className = "iterative-section-text-font" style = {{ paddingTop : "30px" }}>
                             After we have finished initial sketches, we combined our ideas and made one set of wireframes to show how we’ve incorporated that feedback into the next iteration of our design. 
                             The wireframe is shown below.
                         </p>
@@ -95,9 +93,9 @@ const IterativeDesign = () => {
 
                  
 
-                    <div>
-                        <h1 id = "Mockup" className = "iterative-section-title-font">Interactive Hi-Fi Mockup</h1>
-                        <p className = "iterative-section-text-font">
+                    <div style={{paddingBottom: "30px"}}>
+                        <h1 id = "Mockup" className = "iterative-section-title-font" style = {{ paddingTop : "50px" }}>Interactive Hi-Fi Mockup</h1>
+                        <p className = "iterative-section-text-font" style = {{ paddingTop : "30px" }}>
                             At this stage, we made an interactive high-fidelity (hi-fi) prototype based on the wireframe we created. 
                             After we presented our mockup during the studio time, we received a round of critiques shown as below:
                         </p>
@@ -110,8 +108,8 @@ const IterativeDesign = () => {
                             <li style={{paddingTop: "10px"}}>In the checkout page, there is no way to return back to the home page, should add a return button.</li>
                         </ul>
 
-                        <p className = "iterative-section-text-font">
-                            After critique, we made a final iteration to our high-fidelity (hi-fi) prototype incorporating the feedback, which can be found <a href = "https://www.figma.com/proto/VtwY6Bo4ZhMcSTni5zSA31/Banana-mobile-app?node-id=1%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2" target = "_blank" rel="noreferrer">here</a>.
+                        <p className = "iterative-section-text-font" style = {{ paddingTop : "30px" }}>
+                            After critique, we made a final iteration to our high-fidelity (hi-fi) prototype incorporating the feedback, which can be found <b><a href = "https://www.figma.com/proto/VtwY6Bo4ZhMcSTni5zSA31/Banana-mobile-app?node-id=1%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2" target = "_blank" rel="noreferrer">here</a></b>.
                             And there are also some screenshots from our final prototype as shown below.
                         </p>
 
@@ -123,13 +121,13 @@ const IterativeDesign = () => {
 
                 
 
-                    <div>
-                        <h1 id = "User-Test" className = "iterative-section-title-font">User Testing</h1>
-                        <p className = "iterative-section-text-font">
-                            At this stage, we conducted our own usability test through a remote user testing service (<a href="https://www.usertesting.com/" target = "_blank" rel="noreferrer">UserTesting.com</a>), using our final interactive Hi-Fi prototype. 
+                    <div style={{paddingBottom: "30px"}}>
+                        <h1 id = "User-Test" className = "iterative-section-title-font" style = {{ paddingTop : "50px" }}>User Testing</h1>
+                        <p className = "iterative-section-text-font" style = {{ paddingTop : "30px" }}>
+                            At this stage, we conducted our own usability test through a remote user testing service (<b><a href="https://www.usertesting.com/" target = "_blank" rel="noreferrer">UserTesting.com</a></b>), using our final interactive Hi-Fi prototype. 
                             We provided testing instructions, some specific tasks as well as post-test questions to collect information from <b>three users</b>.
                         </p>
-                        <p className = "iterative-section-text-font">
+                        <p className = "iterative-section-text-font" style = {{ paddingTop : "30px" }}>
                             The <b>testing instructions</b> are shown below:
                         </p>
                         <p className = "iterative-section-text-font">
@@ -137,7 +135,7 @@ const IterativeDesign = () => {
                                 Bananas is an App for grocery delivery. Imagine you are looking to buy some groceries using the Bananas mobile app. Note that you will be interacting with a mockup made through prototyping software, rather than an actual mobile app. Not all buttons are clickable and input fields are not interactive. However, everything you need to complete the specified tasks (i.e. the main flow to buy grocery and checkout) has been built and can be reached by navigating through the app. Please ignore if the grocery product information is incorrect or not matched. Please think out loud as you perform the specified tasks.
                             </i>
                         </p>
-                        <p className = "iterative-section-text-font">
+                        <p className = "iterative-section-text-font" style = {{ paddingTop : "30px" }}>
                             The <b>specific tasks</b> we want users to complete on our interactive prototype are shown below:
                         </p>
                         <ol className = "iterative-section-text-font">
@@ -167,11 +165,11 @@ const IterativeDesign = () => {
                             </li>
                         </ol>
 
-                        <p className = "iterative-section-text-font">
+                        <p className = "iterative-section-text-font" style = {{ paddingTop : "30px" }}>
                             Three <b>user testing videos</b> with the users' feedback, as well as answers to specific questions and prompts are shown below:
                         </p>
 
-                        <video style={{paddingTop: "10px"}} width = "800px" height = "auto" controls>
+                        <video style={{paddingTop: "50px"}} width = "800px" height = "auto" controls>
                             <source src="videos/UserTesting-1.mp4" type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>
@@ -186,9 +184,7 @@ const IterativeDesign = () => {
                             Your browser does not support the video tag.
                         </video>
 
-                     
-
-                        <p className = "iterative-section-text-font">
+                        <p className = "iterative-section-text-font" style = {{ paddingTop : "40px" }}>
                             The <b>post-test questions</b> are shown below:
                         </p>
                         <ol className = "iterative-section-text-font">
@@ -209,9 +205,9 @@ const IterativeDesign = () => {
 
               
 
-                    <div>
-                        <h1 id = "Analysis" className = "iterative-section-title-font">Analysis of Results</h1>
-                        <p className = "iterative-section-text-font">
+                    <div style={{paddingBottom: "30px"}}>
+                        <h1 id = "Analysis" className = "iterative-section-title-font" style = {{ paddingTop : "50px" }}>Analysis of Results</h1>
+                        <p className = "iterative-section-text-font" style = {{ paddingTop : "30px" }}>
                             We have 8 tasks in total, which are listed below with feedbacks from 3 different users:
                         </p>
                         <ol className = "iterative-section-text-font">
@@ -240,11 +236,11 @@ const IterativeDesign = () => {
                             <p><b>Feedback: Users find it very easy to view the profile. In line with our expectations.</b></p>
                         </ol>
 
-                        <p className = "iterative-section-text-font">
+                        <p className = "iterative-section-text-font" style = {{ paddingTop : "30px" }}>
                             Overall, users find that all tasks are very easy to complete, and they completed them successfully without making mistakes. In terms of learnability, all users find it very simple to learn and use.  
                         </p>
 
-                        <p className = "iterative-section-text-font">
+                        <p className = "iterative-section-text-font" style = {{ paddingTop : "30px" }}>
                             From the results and feedbacks, there are several potential interface changes we would make:
                         </p>
 
