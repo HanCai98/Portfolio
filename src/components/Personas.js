@@ -17,7 +17,7 @@ const Personas = (props) => {
 
             <div className="personas-content">
                 <div className = "personas-flex-container-col-meta">
-                    <h1 className = "personas-meta-title-font">Bus Bike Rack</h1>
+                    <h1 className = "personas-meta-title-font"><a className="personas-a" href = "/personas">Bus Bike Rack</a></h1>
                     <div className = "personas-meta-text-font">
                         <ul>
                             <li style = {{ paddingTop : "20px" }}><a className="personas-a" href = "#Context">Context</a></li>

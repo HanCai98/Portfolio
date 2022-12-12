@@ -27,7 +27,7 @@ figcaption {
     font-family: Georgia, serif;
     font-size: 28px;
     font-weight: bolder;
-    padding-bottom: 80px;
+    padding-bottom: 100px;
 }
 
 .redesign-navigation-bar {
@@ -67,7 +67,7 @@ figcaption {
     top: 0;
     align-self: flex-start;
     flex-direction: column;
-    padding: 50px 120px 50px 50px;
+    padding: 50px 100px 50px 50px;
 }
 
 
