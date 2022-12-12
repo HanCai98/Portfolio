@@ -18,24 +18,30 @@ const IterativeDesign = () => {
 
             <div className = "iterative-flex-container-row">
                 <div className = "iterative-flex-container-col-meta">
-                    <h1 className = "iterative-meta-title-font">Iterative Design</h1>
+                    <h1 className = "iterative-meta-title-font"><a className="redesign-a" href="/iterative-design">Iterative Design</a></h1>
                     <div className = "iterative-meta-text-font">
                         <ul>
-                            <li style={{paddingTop: "20px"}}><a href = "#Introduction">Introduction to the startup</a></li>
-                            <li style={{paddingTop: "20px"}}><a href = "#Initial-Sketches">Initial Sketches for mobile app</a></li>
-                            <li style={{paddingTop: "20px"}}><a href = "#Combined-Wireframe">Combined Wireframe</a></li>
-                            <li style={{paddingTop: "20px"}}><a href = "#Mockup">Interactive Hi-Fi Mockup</a></li>
-                            <li style={{paddingTop: "20px"}}><a href = "#User-Test">User Testing</a></li>
-                            <li style={{paddingTop: "20px"}}><a href = "#Analysis">Analysis of Results</a></li>
+                            <li style={{paddingTop: "20px"}}><a className = "iterative-a" href = "#Introduction">Introduction</a></li>
+                            <li style={{paddingTop: "20px"}}><a className = "iterative-a" href = "#Initial-Sketches">Initial Sketches for mobile app</a></li>
+                            <li style={{paddingTop: "20px"}}><a className = "iterative-a" href = "#Combined-Wireframe">Combined Wireframe</a></li>
+                            <li style={{paddingTop: "20px"}}><a className = "iterative-a" href = "#Mockup">Interactive Hi-Fi Mockup</a></li>
+                            <li style={{paddingTop: "20px"}}><a className = "iterative-a" href = "#User-Test">User Testing</a></li>
+                            <li style={{paddingTop: "20px"}}><a className = "iterative-a" href = "#Analysis">Analysis of Results</a></li>
                         </ul>
                     </div>
                 </div>
 
                 <div className = "iterative-flex-container-col-section">
-                    <div>
-                        <h1 id = "Introduction" className = "iterative-section-title-font">Introduction</h1>
-                        <p className = "iterative-section-text-font">Bananas is a grocery delivery startup based in Jakarta, Indonesia where you can order groceries and get it delivered in minutes. 
-                            Its aim is to deliver groceries directly to user’s home within minutes and at supermarket prices. You can find more details from its <a href = "https://www.bananas.id/" target = "_blank">website</a>.
+                    <div style={{paddingBottom: "30px"}}>
+                        <h1 id = "Introduction" className = "iterative-section-title-font" style = {{ paddingTop : "50px" }}>Introduction</h1>
+
+                        <figure style={{paddingTop: "50px"}}>
+                            <img src = "images/iterative/company.png" alt = "company" width = "800px" height = "auto" />
+                            <figcaption style= {{paddingTop: "10px", width: "804px", textAlign: "center"}}><i>Figure1: Indonesia startup bananas</i></figcaption>
+                        </figure>
+
+                        <p className = "iterative-section-text-font" style = {{ paddingTop : "40px" }}>Bananas is a grocery delivery startup based in Jakarta, Indonesia where you can order groceries and get it delivered in minutes. 
+                            Its aim is to deliver groceries directly to user’s home within minutes and at supermarket prices. You can find more details from its <a href = "https://www.bananas.id/" target = "_blank" rel="noreferrer">website</a>.
                         </p>
                         <p className = "iterative-section-text-font">
                             In this project, our group will go through the full process of mocking up a solution to the Bananas's concept and design a mobile interactive interface for it.
@@ -53,22 +59,22 @@ const IterativeDesign = () => {
 
                         <figure style={{paddingTop: "50px"}}>
                             <img src = "images/iterative/initial-sketch-1.png" alt = "Initial sketch by team member 1" width = "800px" height = "auto" />
-                            <figcaption style= {{paddingTop: "10px", width: "804px", textAlign: "center"}}><i>Figure1: Initial sketch by team member 1</i></figcaption>
+                            <figcaption style= {{paddingTop: "10px", width: "804px", textAlign: "center"}}><i>Figure2: Initial sketch by team member 1</i></figcaption>
                         </figure>
 
                         <figure style={{paddingTop: "50px"}}>
                             <img src = "images/iterative/initial-sketch-2.png" alt = "Initial sketch by team member 2" width = "800px" height = "auto" />
-                            <figcaption style= {{paddingTop: "10px", width: "804px", textAlign: "center"}}><i>Figure2: Initial sketch by team member 2</i></figcaption>
+                            <figcaption style= {{paddingTop: "10px", width: "804px", textAlign: "center"}}><i>Figure3: Initial sketch by team member 2</i></figcaption>
                         </figure>
 
                         <figure style={{paddingTop: "50px"}}>
                             <img src = "images/iterative/initial-sketch-3.png" alt = "Initial sketch by team member 3" width = "800px" height = "auto" />
-                            <figcaption style= {{paddingTop: "10px", width: "804px", textAlign: "center"}}><i>Figure3: Initial sketch by team member 3</i></figcaption>
+                            <figcaption style= {{paddingTop: "10px", width: "804px", textAlign: "center"}}><i>Figure4: Initial sketch by team member 3</i></figcaption>
                         </figure>
 
                         <figure style={{paddingTop: "50px"}}>
                             <img src = "images/iterative/initial-sketch-4.png" alt = "Initial sketch by team member 4" width = "800px" height = "auto" />
-                            <figcaption style= {{paddingTop: "10px", width: "804px", textAlign: "center"}}><i>Figure4: Initial sketch by team member 4</i></figcaption>
+                            <figcaption style= {{paddingTop: "10px", width: "804px", textAlign: "center"}}><i>Figure5: Initial sketch by team member 4</i></figcaption>
                         </figure>
                     </div>
 
@@ -83,7 +89,7 @@ const IterativeDesign = () => {
 
                         <figure style={{paddingTop: "50px"}}>
                             <img src = "images/iterative/wireframe.png" alt = "Wireframe for the mobile app" width = "800px" height = "auto" />
-                            <figcaption style= {{paddingTop: "10px", width: "804px", textAlign: "center"}}><i>Figure5: Wireframe for the mobile app</i></figcaption>
+                            <figcaption style= {{paddingTop: "10px", width: "804px", textAlign: "center"}}><i>Figure6: Wireframe for the mobile app</i></figcaption>
                         </figure>
                     </div>
 
@@ -105,7 +111,7 @@ const IterativeDesign = () => {
                         </ul>
 
                         <p className = "iterative-section-text-font">
-                            After critique, we made a final iteration to our high-fidelity (hi-fi) prototype incorporating the feedback, which can be found <a href = "https://www.figma.com/proto/VtwY6Bo4ZhMcSTni5zSA31/Banana-mobile-app?node-id=1%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2" target = "_blank">here</a>.
+                            After critique, we made a final iteration to our high-fidelity (hi-fi) prototype incorporating the feedback, which can be found <a href = "https://www.figma.com/proto/VtwY6Bo4ZhMcSTni5zSA31/Banana-mobile-app?node-id=1%3A2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2" target = "_blank" rel="noreferrer">here</a>.
                             And there are also some screenshots from our final prototype as shown below.
                         </p>
 
@@ -120,7 +126,7 @@ const IterativeDesign = () => {
                     <div>
                         <h1 id = "User-Test" className = "iterative-section-title-font">User Testing</h1>
                         <p className = "iterative-section-text-font">
-                            At this stage, we conducted our own usability test through a remote user testing service (<a href="https://www.usertesting.com/" target = "_blank">UserTesting.com</a>), using our final interactive Hi-Fi prototype. 
+                            At this stage, we conducted our own usability test through a remote user testing service (<a href="https://www.usertesting.com/" target = "_blank" rel="noreferrer">UserTesting.com</a>), using our final interactive Hi-Fi prototype. 
                             We provided testing instructions, some specific tasks as well as post-test questions to collect information from <b>three users</b>.
                         </p>
                         <p className = "iterative-section-text-font">

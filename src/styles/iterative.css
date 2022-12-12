@@ -14,7 +14,7 @@ li {
 .iterative-container {
     display: flex;
     flex-direction: column;
-    background-image: linear-gradient(to right, #5fa5e2, #FFFFFF);
+    background-image: linear-gradient(to right, #6cd5c4, #E0D2C7);
     height: 100%;
     width: 100%;
     font-family: Georgia, serif;
@@ -31,7 +31,7 @@ li {
     padding-bottom: 35px;
     padding-left: 80px;
     padding-right: 80px;
-    border-bottom: 2px solid #5191c9;
+    border-bottom: 2px solid #6cd5c4;
     -webkit-box-shadow: 0 10px 6px -6px #777;
     -moz-box-shadow: 0 10px 6px -6px #777;
     box-shadow: 0 10px 6px -6px #777;
