@@ -1,7 +1,7 @@
 import React from "react";
 import '../styles/personas.css'
 
-const Personas = (props) => {
+const Personas = () => {
     return (
         <div className="personas-container">
             <div className = "personas-navigation-bar">

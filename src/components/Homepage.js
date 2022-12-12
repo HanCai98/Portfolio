@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import '../styles/homepage.css'
 
-const Homepage = (props) => {
+const Homepage = () => {
     const navigate = useNavigate();
 
     return (

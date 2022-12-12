@@ -1,7 +1,7 @@
 import React from "react";
 import '../styles/redesign.css'
 
-const Redesign = (props) => {
+const Redesign = () => {
     
     return (
         <div className="redesign-container">

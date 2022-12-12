@@ -21,7 +21,7 @@ figcaption {
 .redesign-container {
     display: flex;
     flex-direction: column;
-    background-image: linear-gradient(to left, #AACAEF, #FDE7F9);
+    background-image: linear-gradient(to right, #AACAEF, #FDE7F9);
     height: 100%;
     width: 100%;
     font-family: Georgia, serif;

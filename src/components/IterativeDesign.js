@@ -1,7 +1,7 @@
 import React from "react";
 import '../styles/iterative.css'
 
-const IterativeDesign = (props) => {
+const IterativeDesign = () => {
 
     return (
         <div className ="iterative-container">
@@ -20,7 +20,7 @@ const IterativeDesign = (props) => {
                 <div className = "iterative-flex-container-col-meta">
                     <h1 className = "iterative-meta-title-font">Iterative Design</h1>
                     <div className = "iterative-meta-text-font">
-                        <ul className = "iterative-meta-text-font">
+                        <ul>
                             <li style={{paddingTop: "20px"}}><a href = "#Introduction">Introduction to the startup</a></li>
                             <li style={{paddingTop: "20px"}}><a href = "#Initial-Sketches">Initial Sketches for mobile app</a></li>
                             <li style={{paddingTop: "20px"}}><a href = "#Combined-Wireframe">Combined Wireframe</a></li>
