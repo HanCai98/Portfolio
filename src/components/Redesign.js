@@ -81,7 +81,7 @@ const Redesign = (props) => {
                             <figcaption style= {{paddingTop: "10px", width: "804px", textAlign: "center"}}><i>Figure4: Accessibility problems of the webpage detected by using <a href = "https://wave.webaim.org/" target = "_blank" rel="noreferrer">WAVE</a></i></figcaption>
                         </figure>
                         <p className = "redesign-section-text-font" style = {{ paddingTop : "40px" }}>
-                            Yes, I agree with most of the problems dected by <i><a href = "https://wave.webaim.org/" target = "_blank" rel="noreferrer">WAVE</a></i>. There are 4 images without alternative text, 2 empty headings, 6 empty buttons and one empty link. Moreover, there are 81 texts with very low contrast in total! Overall, this webpage has a poor design, much more things could be done to improve users' experience.
+                            Yes, I agree with most of the problems dected by <i><b><a href = "https://wave.webaim.org/" target = "_blank" rel="noreferrer">WAVE</a></b></i>. There are 4 images without alternative text, 2 empty headings, 6 empty buttons and one empty link. Moreover, there are 81 texts with very low contrast in total! Overall, this webpage has a poor design, much more things could be done to improve users' experience.
                         </p>
                     </div>
 
@@ -163,7 +163,7 @@ const Redesign = (props) => {
                     <div style={{paddingBottom: "30px"}}>
                         <h1 id = "responsive-redesign" className = "redesign-section-title-font" style = {{paddingTop: "50px"}}>Responsive Redesign</h1>
                         <p className = "redesign-section-text-font" style = {{ paddingTop : "40px" }}>
-                            The responsive redesigned webpage can be found <a href = "https://smartfox998.github.io/Kindergarten/" target = "_blank" rel="noreferrer">here</a>. The original one can be found <a href = "http://nprovschools.org/kindergarten" target = "_blank" rel="noreferrer">here</a>.
+                            The responsive redesigned webpage can be found <b><a href = "https://smartfox998.github.io/Kindergarten/" target = "_blank" rel="noreferrer">here</a></b>. The original one can be found <a href = "http://nprovschools.org/kindergarten" target = "_blank" rel="noreferrer">here</a>.
                             In this new page, with login choice on the navigation bar, users are much easier to login to kindergarten's system in different ways.
                             It is also much easier for users to find important news and files (there is a <i>Important News</i> section now).
                             I also move the contact information and employment section (job opportunities) to the footer, which is more reasonable.
