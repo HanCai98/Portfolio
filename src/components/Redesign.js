@@ -34,7 +34,7 @@ const Redesign = () => {
                 <div className = "redesign-flex-container-col-section">
                     <div style={{paddingBottom: "30px"}}>
                         <h1 id = "context" className = "redesign-section-title-font" style = {{ paddingTop : "50px" }}>Context</h1>
-                        <p className = "redesign-section-text-font" style = {{ paddingTop : "40px" }}>
+                        <p className = "redesign-section-text-font" style = {{ paddingTop : "30px" }}>
                             The goal of this project is to practice the workflow of redesigning a simple website.
                             Start from analyzing and identifying flaws in an existing interface, I create low-fidelity and high-fidelity prototypes for various screen sizes, and then build a responsive website based on those prototypes.
                             The webpage that I choose is the homepage of a kindergarten in north providence school district. You can visit this webpage by clicking <b><a href = "http://nprovschools.org/kindergarten" target = "_blank" rel="noreferrer">here</a></b>. There are a few screenshots for this webpage shown below.
@@ -63,7 +63,7 @@ const Redesign = () => {
 
                     <div style={{paddingBottom: "30px"}}>
                         <h1 id = "usability-problems" className = "redesign-section-title-font" style = {{paddingTop: "50px"}}>Identify Usability Problems</h1>
-                        <ul className = "redesign-section-text-font" style = {{ paddingTop : "40px" }}>
+                        <ul className = "redesign-section-text-font" style = {{ paddingTop : "30px" }}>
                             <li>Usability: For frequent users, the typical tasks can be done quickly.</li>
                             <li>Learnability: For new users, this website is not very easy to learn, they need to spend some time to get familiar with the layout of the website. They might need extra help if they want to find some information of the kindergarten, e.g., how to login with different accounts.</li>
                             <li>Memorability: For casual users, some functionalities of this website are not very easy to recall. For example, it’s very hard to remember where to find the important news and important files of the kindergarten.</li>
@@ -107,6 +107,7 @@ const Redesign = () => {
                             <center><img src = "images/redesign/LowFi-phone.png" alt = "Low-fidelity wireframe for mobile phone" width = "400px" height="auto" style = {{ border : "2px solid #000000" }} /></center>
                             <figcaption style= {{paddingTop: "10px", width: "804px", textAlign: "center"}}><i>Figure7: Low-Fidelity Wireframe for mobile phone</i></figcaption>
                         </figure>
+
                         <p className = "redesign-section-text-font" style = {{ paddingTop : "40px" }}>
                             The low-fidelity wireframe for mobile phone is very similar to the one for tablet, the only differnce is the font size which will become smaller because of smaller screen size.
                         </p>
@@ -122,7 +123,7 @@ const Redesign = () => {
 
                     <div style={{paddingBottom: "30px"}}>
                         <h1 id = "high-fidelity-prototypes" className = "redesign-section-title-font" style = {{paddingTop: "50px"}}>High-Fidelity Prototypes</h1>
-                        <p className = "redesign-section-text-font" style = {{ paddingTop : "40px" }} >
+                        <p className = "redesign-section-text-font" style = {{ paddingTop : "30px" }} >
                             The high fidelity prototypes for different screen size are shown below. Overall, there are five parts in each prototype: header, a image of children, important news section, kindergarten registration section and footer.
                             The whole webpage uses <b><i>flexbox layout</i></b>, and these five sections are in <b><i>column flex direction</i></b>.
                         </p>
@@ -135,10 +136,10 @@ const Redesign = () => {
                             The second part is a blue rectangle under the white one with the navigation bar on it. Each choice on the navigation bar is clickable and will show a list when the mouse is hover on it.
                             These two rectangles also use <b><i>flexbox layout</i></b> in <b><i>column flex direction</i></b>. The third part is the logo of the kindergarten, which should be placed at the top left of the webpage, therefore it should use <b><i>absolute</i></b> position setting.
                         </p>
-                        <p className = "redesign-section-text-font" style = {{ paddingTop : "20px" }}>
+                        <p className = "redesign-section-text-font" style = {{ paddingTop : "30px" }}>
                             The rest three sections (children image, important news, kindergarten registration) are easy to implement, just create some flexbox in <b><i>column</i></b> direction.
                         </p>
-                        <p className = "redesign-section-text-font" style = {{ paddingTop : "20px" }}>
+                        <p className = "redesign-section-text-font" style = {{ paddingTop : "30px" }}>
                             The footer section has two parts: <i>Contact Information</i> and <i>Site Map</i>. These two parts should use <b><i>flexbox layout</i></b> in <b><i>row flex direction</i></b>.
                         </p>
 
@@ -146,6 +147,7 @@ const Redesign = () => {
                             <center><img src = "images/redesign/HiFi-pad.png" alt = "High-Fidelity for tablet" width = "600px" height="auto" style = {{ border : "2px solid #000000" }} /></center>
                             <figcaption style= {{paddingTop: "10px", width: "804px", textAlign: "center"}}><i>Figure10: High-fidelity prototype for tablet</i></figcaption>
                         </figure>
+
                         <p className = "redesign-section-text-font" style = {{ paddingTop : "40px" }}>
                             When users visit this redesigned webpage on a tablet, the head of the webpage will change. There are three parts on the head: the menu icon, the kindergarten's logo and the login icon.
                             These three parts should use <b><i>flexbox layout</i></b> in <b><i>row flex direction</i></b> with <b><i>space-between</i></b> to distribute space between them. Same as before, the menu icon and login icon will show a list when the mouse is hover on it.
@@ -155,6 +157,7 @@ const Redesign = () => {
                             <center><img src = "images/redesign/HiFi-phone.png" alt = "High-Fidelity for mobile phone" width = "400px" height="auto" style = {{ border : "2px solid #000000" }} /></center>
                             <figcaption style= {{paddingTop: "10px", width: "804px", textAlign: "center"}}><i>Figure11: High-fidelity prototype for mobile phone</i></figcaption>
                         </figure>
+
                         <p className = "redesign-section-text-font" style = {{ paddingTop : "40px" }}>
                             When users visit this redesigned webpage on a mobile phone, the footer of the webpage will also change. The <i>Contact Information</i> and <i>Site Map</i> should use <b><i>flexbox layout</i></b> in <b><i>column flex direction</i></b>.
                         </p>
@@ -162,7 +165,7 @@ const Redesign = () => {
 
                     <div style={{paddingBottom: "30px"}}>
                         <h1 id = "responsive-redesign" className = "redesign-section-title-font" style = {{paddingTop: "50px"}}>Responsive Redesign</h1>
-                        <p className = "redesign-section-text-font" style = {{ paddingTop : "40px" }}>
+                        <p className = "redesign-section-text-font" style = {{ paddingTop : "30px" }}>
                             The responsive redesigned webpage can be found <b><a href = "https://smartfox998.github.io/Kindergarten/" target = "_blank" rel="noreferrer">here</a></b>. The original one can be found <a href = "http://nprovschools.org/kindergarten" target = "_blank" rel="noreferrer">here</a>.
                             In this new page, with login choice on the navigation bar, users are much easier to login to kindergarten's system in different ways.
                             It is also much easier for users to find important news and files (there is a <i>Important News</i> section now).
@@ -173,6 +176,7 @@ const Redesign = () => {
                             <img src = "images/redesign/problem-solved.png" alt = "no accessibility problem after redesign" width = "800px" height="auto" style = {{ border : "2px solid #000000" }} />
                             <figcaption style= {{paddingTop: "10px", width: "804px", textAlign: "center"}}><i>Figure12: No accessibility problem can be found using <a href = "https://wave.webaim.org/" target = "_blank" rel="noreferrer">WAVE</a> after redesign</i></figcaption>
                         </figure>
+                        
                         <p className = "redesign-section-text-font" style = {{ paddingTop : "40px" }}>
                             After the redesign and development, the new webpage has no accessibility problem anymore <i>(Figure12)</i>. Each image/icon has a alternative text, each link is very clear even in different background (because I change the link color according to the background color).
                         </p>
