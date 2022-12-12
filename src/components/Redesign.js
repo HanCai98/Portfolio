@@ -41,18 +41,18 @@ const Redesign = () => {
                         </p>
                         
                         <figure style = {{paddingTop: "50px"}}>
-                            <img src = "images/redesign/original-1.png" alt = "first part of the webpage on desktop" width = "800px" height = "auto" style = {{ border : "2px solid #000000" }} />
-                            <figcaption style= {{paddingTop: "10px", width: "804px", textAlign: "center"}}><i>Figure1: The first part of the webpage on desktop</i></figcaption>
+                            <img src = "images/redesign/original-1.png" alt = "first part of the webpage on desktop" width = "850px" height = "auto" style = {{ border : "2px solid #000000" }} />
+                            <figcaption style= {{paddingTop: "10px", width: "850px", textAlign: "center"}}><i>Figure1: The first part of the webpage on desktop</i></figcaption>
                         </figure>
 
                         <figure style = {{paddingTop: "50px"}}>
-                            <img src = "images/redesign/original-2.png" alt = "second part of the webpage on desktop" width = "800px" height="auto" style = {{ border : "2px solid #000000" }} />
-                            <figcaption style= {{paddingTop: "10px", width: "804px", textAlign: "center"}}><i>Figure2: The second part of the webpage on desktop</i></figcaption>
+                            <img src = "images/redesign/original-2.png" alt = "second part of the webpage on desktop" width = "850px" height="auto" style = {{ border : "2px solid #000000" }} />
+                            <figcaption style= {{paddingTop: "10px", width: "850px", textAlign: "center"}}><i>Figure2: The second part of the webpage on desktop</i></figcaption>
                         </figure>
 
                         <figure style = {{paddingTop: "50px"}}>
                             <center><img src = "images/redesign/mobile.jpeg" alt = "webpage on the mobile phone" width = "400px" height="auto" style = {{ border : "2px solid #000000" }} /></center>
-                            <figcaption style= {{paddingTop: "10px", width: "804px", textAlign: "center"}}><i>Figure3: The screenshot of the webpage on mobile phone</i></figcaption>
+                            <figcaption style= {{paddingTop: "10px", width: "850px", textAlign: "center"}}><i>Figure3: The screenshot of the webpage on mobile phone</i></figcaption>
                         </figure>
 
                         <p className = "redesign-section-text-font" style = {{ paddingTop : "40px" }}>
@@ -77,8 +77,8 @@ const Redesign = () => {
                     <div style={{paddingBottom: "30px"}}>
                         <h1 id = "accessibility-problems" className = "redesign-section-title-font" style = {{paddingTop: "50px"}}>Identify Accessibility Problems</h1>
                         <figure style = {{paddingTop: "50px"}}>
-                            <img src = "images/redesign/problems.png" alt = "accessibility problems of the webpage" width = "800px" height="auto" style = {{ border : "2px solid #000000" }} />
-                            <figcaption style= {{paddingTop: "10px", width: "804px", textAlign: "center"}}><i>Figure4: Accessibility problems of the webpage detected by using <a href = "https://wave.webaim.org/" target = "_blank" rel="noreferrer">WAVE</a></i></figcaption>
+                            <img src = "images/redesign/problems.png" alt = "accessibility problems of the webpage" width = "850px" height="auto" style = {{ border : "2px solid #000000" }} />
+                            <figcaption style= {{paddingTop: "10px", width: "850px", textAlign: "center"}}><i>Figure4: Accessibility problems of the webpage detected by using <a href = "https://wave.webaim.org/" target = "_blank" rel="noreferrer">WAVE</a></i></figcaption>
                         </figure>
                         <p className = "redesign-section-text-font" style = {{ paddingTop : "40px" }}>
                             Yes, I agree with most of the problems dected by <i><b><a href = "https://wave.webaim.org/" target = "_blank" rel="noreferrer">WAVE</a></b></i>. There are 4 images without alternative text, 2 empty headings, 6 empty buttons and one empty link. Moreover, there are 81 texts with very low contrast in total! Overall, this webpage has a poor design, much more things could be done to improve users' experience.
@@ -88,8 +88,8 @@ const Redesign = () => {
                     <div style={{paddingBottom: "30px"}}>
                         <h1 id = "low-fidelity-wireframes" className = "redesign-section-title-font" style = {{paddingTop: "50px"}}>Low-Fidelity Wireframes</h1>
                         <figure style = {{paddingTop: "50px"}}>
-                            <img src = "images/redesign/LowFi-desktop.png" alt = "Low-fidelity wireframe for desktop" width = "800px" height="auto" style = {{ border : "2px solid #000000" }} />
-                            <figcaption style= {{paddingTop: "10px", width: "804px", textAlign: "center"}}><i>Figure5: Low-Fidelity Wireframe for desktop</i></figcaption>
+                            <img src = "images/redesign/LowFi-desktop.png" alt = "Low-fidelity wireframe for desktop" width = "850px" height="auto" style = {{ border : "2px solid #000000" }} />
+                            <figcaption style= {{paddingTop: "10px", width: "850px", textAlign: "center"}}><i>Figure5: Low-Fidelity Wireframe for desktop</i></figcaption>
                         </figure>
                         <p className = "redesign-section-text-font" style = {{ paddingTop : "40px" }}>
                             In this low-fidelity wireframe for desktop, I use a <b><i>login</i></b> button on the top right to store all the different ways to login. In this way, users could find the login entry portal easier. I also redesign the navigation bar for this webpage, removing some redundant choices to make it more clean and clear. I also redesign the layout of this webpage, users now could find improtant news and important files from the <b><i>Important News</i></b> section at the bottom.
@@ -97,7 +97,7 @@ const Redesign = () => {
 
                         <figure style = {{paddingTop: "50px"}}>
                             <center><img src = "images/redesign/LowFi-pad.png" alt = "Low-fidelity wireframe for tablet" width = "600px" height="auto" style = {{ border : "2px solid #000000" }} /></center>
-                            <figcaption style= {{paddingTop: "10px", width: "804px", textAlign: "center"}}><i>Figure6: Low-Fidelity Wireframe for tablet</i></figcaption>
+                            <figcaption style= {{paddingTop: "10px", width: "850px", textAlign: "center"}}><i>Figure6: Low-Fidelity Wireframe for tablet</i></figcaption>
                         </figure>
                         <p className = "redesign-section-text-font" style = {{ paddingTop : "40px" }}>
                             In this low-fidelity wireframe for tablet, I use a menu button on the top left to replace the navigation bar in the desktop wireframe. And the layout and the font size of each section also change according to the screen size.
@@ -105,7 +105,7 @@ const Redesign = () => {
 
                         <figure style = {{paddingTop: "50px"}}>
                             <center><img src = "images/redesign/LowFi-phone.png" alt = "Low-fidelity wireframe for mobile phone" width = "400px" height="auto" style = {{ border : "2px solid #000000" }} /></center>
-                            <figcaption style= {{paddingTop: "10px", width: "804px", textAlign: "center"}}><i>Figure7: Low-Fidelity Wireframe for mobile phone</i></figcaption>
+                            <figcaption style= {{paddingTop: "10px", width: "850px", textAlign: "center"}}><i>Figure7: Low-Fidelity Wireframe for mobile phone</i></figcaption>
                         </figure>
 
                         <p className = "redesign-section-text-font" style = {{ paddingTop : "40px" }}>
@@ -116,8 +116,8 @@ const Redesign = () => {
                     <div style={{paddingBottom: "30px"}}>
                         <h1 id = "design-guide" className = "redesign-section-title-font" style = {{paddingTop: "50px"}}>Visual Design Style Guide</h1>
                         <figure style = {{paddingTop: "50px"}}>
-                            <img src = "images/redesign/style-guide.png" alt = "Visual Design Style Guide" width = "800px" height="auto" style = {{ border : "2px solid #000000" }} />
-                            <figcaption style= {{paddingTop: "10px", width: "804px", textAlign: "center"}}><i>Figure8: Visual Design Style Guide</i></figcaption>
+                            <img src = "images/redesign/style-guide.png" alt = "Visual Design Style Guide" width = "850px" height="auto" style = {{ border : "2px solid #000000" }} />
+                            <figcaption style= {{paddingTop: "10px", width: "850px", textAlign: "center"}}><i>Figure8: Visual Design Style Guide</i></figcaption>
                         </figure>
                     </div>
 
@@ -128,8 +128,8 @@ const Redesign = () => {
                             The whole webpage uses <b><i>flexbox layout</i></b>, and these five sections are in <b><i>column flex direction</i></b>.
                         </p>
                         <figure style = {{paddingTop: "50px"}}>
-                            <img src = "images/redesign/HiFi-desktop.png" alt = "High-Fidelity for desktop" width = "800px" height="auto" style = {{ border : "2px solid #000000" }} />
-                            <figcaption style= {{paddingTop: "10px", width: "804px", textAlign: "center"}}><i>Figure9: High-fidelity prototype for desktop</i></figcaption>
+                            <img src = "images/redesign/HiFi-desktop.png" alt = "High-Fidelity for desktop" width = "850px" height="auto" style = {{ border : "2px solid #000000" }} />
+                            <figcaption style= {{paddingTop: "10px", width: "850px", textAlign: "center"}}><i>Figure9: High-fidelity prototype for desktop</i></figcaption>
                         </figure>
                         <p className = "redesign-section-text-font" style = {{ paddingTop : "40px" }}>
                             The header section has three parts. The first part is a white rectangle on the top with text <i>KINDERGARTEN</i> and some icons. All the social account icons are clickable.
@@ -145,7 +145,7 @@ const Redesign = () => {
 
                         <figure style = {{paddingTop: "50px"}}>
                             <center><img src = "images/redesign/HiFi-pad.png" alt = "High-Fidelity for tablet" width = "600px" height="auto" style = {{ border : "2px solid #000000" }} /></center>
-                            <figcaption style= {{paddingTop: "10px", width: "804px", textAlign: "center"}}><i>Figure10: High-fidelity prototype for tablet</i></figcaption>
+                            <figcaption style= {{paddingTop: "10px", width: "850px", textAlign: "center"}}><i>Figure10: High-fidelity prototype for tablet</i></figcaption>
                         </figure>
 
                         <p className = "redesign-section-text-font" style = {{ paddingTop : "40px" }}>
@@ -155,7 +155,7 @@ const Redesign = () => {
 
                         <figure style = {{paddingTop: "50px"}}>
                             <center><img src = "images/redesign/HiFi-phone.png" alt = "High-Fidelity for mobile phone" width = "400px" height="auto" style = {{ border : "2px solid #000000" }} /></center>
-                            <figcaption style= {{paddingTop: "10px", width: "804px", textAlign: "center"}}><i>Figure11: High-fidelity prototype for mobile phone</i></figcaption>
+                            <figcaption style= {{paddingTop: "10px", width: "850px", textAlign: "center"}}><i>Figure11: High-fidelity prototype for mobile phone</i></figcaption>
                         </figure>
 
                         <p className = "redesign-section-text-font" style = {{ paddingTop : "40px" }}>
@@ -173,8 +173,8 @@ const Redesign = () => {
                             Most importantly, this webpage is now responsive!
                         </p>
                         <figure style = {{paddingTop: "50px"}}>
-                            <img src = "images/redesign/problem-solved.png" alt = "no accessibility problem after redesign" width = "800px" height="auto" style = {{ border : "2px solid #000000" }} />
-                            <figcaption style= {{paddingTop: "10px", width: "804px", textAlign: "center"}}><i>Figure12: No accessibility problem can be found using <a href = "https://wave.webaim.org/" target = "_blank" rel="noreferrer">WAVE</a> after redesign</i></figcaption>
+                            <img src = "images/redesign/problem-solved.png" alt = "no accessibility problem after redesign" width = "850px" height="auto" style = {{ border : "2px solid #000000" }} />
+                            <figcaption style= {{paddingTop: "10px", width: "850px", textAlign: "center"}}><i>Figure12: No accessibility problem can be found using <a href = "https://wave.webaim.org/" target = "_blank" rel="noreferrer">WAVE</a> after redesign</i></figcaption>
                         </figure>
 
                         <p className = "redesign-section-text-font" style = {{ paddingTop : "40px" }}>
@@ -182,23 +182,23 @@ const Redesign = () => {
                         </p>
 
                         <figure style = {{paddingTop: "50px"}}>
-                            <img src = "images/redesign/new-1.png" alt = "redesign webpage on desktop-1" width = "800px" height="auto" style = {{ border : "2px solid #000000" }} />
-                            <figcaption style= {{paddingTop: "10px", width: "804px", textAlign: "center"}}><i>Figure13: Responsive redesign webpage on desktop (part 1)</i></figcaption>
+                            <img src = "images/redesign/new-1.png" alt = "redesign webpage on desktop-1" width = "850px" height="auto" style = {{ border : "2px solid #000000" }} />
+                            <figcaption style= {{paddingTop: "10px", width: "850px", textAlign: "center"}}><i>Figure13: Responsive redesign webpage on desktop (part 1)</i></figcaption>
                         </figure>
 
                         <figure style = {{paddingTop: "50px"}}>
-                            <img src = "images/redesign/new-2.png" alt = "redesign webpage on desktop-2" width = "800px" height="auto" style = {{ border : "2px solid #000000" }} />
-                            <figcaption style= {{paddingTop: "10px", width: "804px", textAlign: "center"}}><i>Figure14: Responsive redesign webpage on desktop (part 2)</i></figcaption>
+                            <img src = "images/redesign/new-2.png" alt = "redesign webpage on desktop-2" width = "850px" height="auto" style = {{ border : "2px solid #000000" }} />
+                            <figcaption style= {{paddingTop: "10px", width: "850px", textAlign: "center"}}><i>Figure14: Responsive redesign webpage on desktop (part 2)</i></figcaption>
                         </figure>
 
                         <figure style = {{paddingTop: "50px"}}>
-                            <img src = "images/redesign/new-3.png" alt = "redesign webpage on desktop-3" width = "800px" height="auto" style = {{ border : "2px solid #000000" }} />
-                            <figcaption style= {{paddingTop: "10px", width: "804px", textAlign: "center"}}><i>Figure15: Responsive redesign webpage on desktop (part 3)</i></figcaption>
+                            <img src = "images/redesign/new-3.png" alt = "redesign webpage on desktop-3" width = "850px" height="auto" style = {{ border : "2px solid #000000" }} />
+                            <figcaption style= {{paddingTop: "10px", width: "850px", textAlign: "center"}}><i>Figure15: Responsive redesign webpage on desktop (part 3)</i></figcaption>
                         </figure>
 
                         <figure style = {{paddingTop: "50px"}}>
-                            <img src = "images/redesign/new-4.png" alt = "redesign webpage on desktop-4" width = "800px" height="auto" style = {{ border : "2px solid #000000" }} />
-                            <figcaption style= {{paddingTop: "10px", width: "804px", textAlign: "center"}}><i>Figure16: Responsive redesign webpage on desktop with <b>dropdown list</b></i></figcaption>
+                            <img src = "images/redesign/new-4.png" alt = "redesign webpage on desktop-4" width = "850px" height="auto" style = {{ border : "2px solid #000000" }} />
+                            <figcaption style= {{paddingTop: "10px", width: "850px", textAlign: "center"}}><i>Figure16: Responsive redesign webpage on desktop with <b>dropdown list</b></i></figcaption>
                         </figure>
 
                         <p className = "redesign-section-text-font" style = {{ paddingTop : "40px" }}>
@@ -208,27 +208,27 @@ const Redesign = () => {
 
                         <figure style = {{paddingTop: "50px"}}>
                             <center><img src = "images/redesign/pad-1.png" alt = "redesign webpage on tablet-1" width = "600px" height="auto" style = {{ border : "2px solid #000000" }} /></center>
-                            <figcaption style= {{paddingTop: "10px", width: "804px", textAlign: "center"}}><i>Figure17: Responsive redesign webpage on tablet (part 1)</i></figcaption>
+                            <figcaption style= {{paddingTop: "10px", width: "850px", textAlign: "center"}}><i>Figure17: Responsive redesign webpage on tablet (part 1)</i></figcaption>
                         </figure>
 
                         <figure style = {{paddingTop: "50px"}}>
                             <center><img src = "images/redesign/pad-2.png" alt = "redesign webpage on tablet-2" width = "600px" height="auto" style = {{ border : "2px solid #000000" }} /></center>
-                            <figcaption style= {{paddingTop: "10px", width: "804px", textAlign: "center"}}><i>Figure18: Responsive redesign webpage on tablet (part 2)</i></figcaption>
+                            <figcaption style= {{paddingTop: "10px", width: "850px", textAlign: "center"}}><i>Figure18: Responsive redesign webpage on tablet (part 2)</i></figcaption>
                         </figure>
 
                         <figure style = {{paddingTop: "50px"}}>
                             <center><img src = "images/redesign/pad-3.png" alt = "redesign webpage on tablet-3" width = "600px" height="auto" style = {{ border : "2px solid #000000" }} /></center>
-                            <figcaption style= {{paddingTop: "10px", width: "804px", textAlign: "center"}}><i>Figure19: Responsive redesign webpage on tablet with <b>dropdown list</b></i></figcaption>
+                            <figcaption style= {{paddingTop: "10px", width: "850px", textAlign: "center"}}><i>Figure19: Responsive redesign webpage on tablet with <b>dropdown list</b></i></figcaption>
                         </figure>
 
                         <figure style = {{paddingTop: "50px"}}>
                             <center><img src = "images/redesign/phone-1.png" alt = "redesign webpage on phone-1" width = "400px" height="auto" style = {{ border : "2px solid #000000" }} /></center>
-                            <figcaption style= {{paddingTop: "10px", width: "804px", textAlign: "center"}}><i>Figure20: Responsive redesign webpage on mobile phone</i></figcaption>
+                            <figcaption style= {{paddingTop: "10px", width: "850px", textAlign: "center"}}><i>Figure20: Responsive redesign webpage on mobile phone</i></figcaption>
                         </figure>
 
                         <figure style = {{paddingTop: "50px"}}>
                             <center><img src = "images/redesign/phone-2.png" alt = "redesign webpage on phone-2" width = "400px" height="auto" style = {{ border : "2px solid #000000" }} /></center>
-                            <figcaption style= {{paddingTop: "10px", width: "804px", textAlign: "center"}}><i>Figure21: Responsive redesign webpage on mobile phone with <b>dropdown list</b></i></figcaption>
+                            <figcaption style= {{paddingTop: "10px", width: "850px", textAlign: "center"}}><i>Figure21: Responsive redesign webpage on mobile phone with <b>dropdown list</b></i></figcaption>
                         </figure>
                     </div>
                 </div>
