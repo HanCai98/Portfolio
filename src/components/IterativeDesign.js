@@ -36,8 +36,8 @@ const IterativeDesign = () => {
                         <h1 id = "Introduction" className = "iterative-section-title-font" style = {{ paddingTop : "50px" }}>Introduction</h1>
 
                         <figure style={{paddingTop: "50px"}}>
-                            <img src = "images/iterative/company.png" alt = "company" width = "800px" height = "auto" />
-                            <figcaption style= {{paddingTop: "10px", width: "804px", textAlign: "center"}}><i>Figure1: Indonesia startup bananas</i></figcaption>
+                            <img src = "images/iterative/company.png" alt = "company" width = "850px" height = "auto" />
+                            <figcaption style= {{paddingTop: "10px", width: "850px", textAlign: "center"}}><i>Figure1: Indonesia startup bananas</i></figcaption>
                         </figure>
 
                         <p className = "iterative-section-text-font" style = {{ paddingTop : "40px" }}>Bananas is a grocery delivery startup based in Jakarta, Indonesia where you can order groceries and get it delivered in minutes. 
@@ -56,23 +56,23 @@ const IterativeDesign = () => {
                         </p>
 
                         <figure style={{paddingTop: "50px"}}>
-                            <img src = "images/iterative/initial-sketch-1.png" alt = "Initial sketch by team member 1" width = "800px" height = "auto" />
-                            <figcaption style= {{paddingTop: "10px", width: "804px", textAlign: "center"}}><i>Figure2: Initial sketch by team member 1</i></figcaption>
+                            <img src = "images/iterative/initial-sketch-1.png" alt = "Initial sketch by team member 1" width = "850px" height = "auto" />
+                            <figcaption style= {{paddingTop: "10px", width: "850px", textAlign: "center"}}><i>Figure2: Initial sketch by team member 1</i></figcaption>
                         </figure>
 
                         <figure style={{paddingTop: "50px"}}>
-                            <img src = "images/iterative/initial-sketch-2.png" alt = "Initial sketch by team member 2" width = "800px" height = "auto" />
-                            <figcaption style= {{paddingTop: "10px", width: "804px", textAlign: "center"}}><i>Figure3: Initial sketch by team member 2</i></figcaption>
+                            <img src = "images/iterative/initial-sketch-2.png" alt = "Initial sketch by team member 2" width = "850px" height = "auto" />
+                            <figcaption style= {{paddingTop: "10px", width: "850px", textAlign: "center"}}><i>Figure3: Initial sketch by team member 2</i></figcaption>
                         </figure>
 
                         <figure style={{paddingTop: "50px"}}>
-                            <img src = "images/iterative/initial-sketch-3.png" alt = "Initial sketch by team member 3" width = "800px" height = "auto" />
-                            <figcaption style= {{paddingTop: "10px", width: "804px", textAlign: "center"}}><i>Figure4: Initial sketch by team member 3</i></figcaption>
+                            <img src = "images/iterative/initial-sketch-3.png" alt = "Initial sketch by team member 3" width = "850px" height = "auto" />
+                            <figcaption style= {{paddingTop: "10px", width: "850px", textAlign: "center"}}><i>Figure4: Initial sketch by team member 3</i></figcaption>
                         </figure>
 
                         <figure style={{paddingTop: "50px"}}>
-                            <img src = "images/iterative/initial-sketch-4.png" alt = "Initial sketch by team member 4" width = "800px" height = "auto" />
-                            <figcaption style= {{paddingTop: "10px", width: "804px", textAlign: "center"}}><i>Figure5: Initial sketch by team member 4</i></figcaption>
+                            <img src = "images/iterative/initial-sketch-4.png" alt = "Initial sketch by team member 4" width = "850px" height = "auto" />
+                            <figcaption style= {{paddingTop: "10px", width: "850px", textAlign: "center"}}><i>Figure5: Initial sketch by team member 4</i></figcaption>
                         </figure>
                     </div>
 
@@ -86,8 +86,8 @@ const IterativeDesign = () => {
                         </p>
 
                         <figure style={{paddingTop: "50px"}}>
-                            <img src = "images/iterative/wireframe.png" alt = "Wireframe for the mobile app" width = "800px" height = "auto" />
-                            <figcaption style= {{paddingTop: "10px", width: "804px", textAlign: "center"}}><i>Figure6: Wireframe for the mobile app</i></figcaption>
+                            <img src = "images/iterative/wireframe.png" alt = "Wireframe for the mobile app" width = "850px" height = "auto" />
+                            <figcaption style= {{paddingTop: "10px", width: "850px", textAlign: "center"}}><i>Figure6: Wireframe for the mobile app</i></figcaption>
                         </figure>
                     </div>
 
@@ -114,8 +114,8 @@ const IterativeDesign = () => {
                         </p>
 
                         <figure style={{paddingTop: "50px"}}>
-                            <img src = "images/iterative/screenshot.png" alt = "Screenshots from hi-fi prototype" width = "800px" height = "auto" />
-                            <figcaption style= {{paddingTop: "10px", width: "804px", textAlign: "center"}}><i>Figure6: Screenshots from hi-fi prototype</i></figcaption>
+                            <img src = "images/iterative/screenshot.png" alt = "Screenshots from hi-fi prototype" width = "850px" height = "auto" />
+                            <figcaption style= {{paddingTop: "10px", width: "850px", textAlign: "center"}}><i>Figure6: Screenshots from hi-fi prototype</i></figcaption>
                         </figure>
                     </div>
 
@@ -169,17 +169,17 @@ const IterativeDesign = () => {
                             Three <b>user testing videos</b> with the users' feedback, as well as answers to specific questions and prompts are shown below:
                         </p>
 
-                        <video style={{paddingTop: "50px"}} width = "800px" height = "auto" controls>
+                        <video style={{paddingTop: "50px"}} width = "850px" height = "auto" controls>
                             <source src="videos/UserTesting-1.mp4" type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>
 
-                        <video style={{paddingTop: "50px"}} width = "800px" height = "auto" controls>
+                        <video style={{paddingTop: "50px"}} width = "850px" height = "auto" controls>
                             <source src="videos/UserTesting-2.mp4" type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>
 
-                        <video style={{paddingTop: "50px"}} width = "800px" height = "auto" controls>
+                        <video style={{paddingTop: "50px"}} width = "850px" height = "auto" controls>
                             <source src="videos/UserTesting-3.mp4" type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>
