@@ -23,9 +23,9 @@ const Redesign = () => {
                         <ul>
                             <li><a className="redesign-a" href = "#context">Context</a></li>
                             <li><a className="redesign-a" href = "#usability-problems">Analyze and identify flaws</a></li>
-                            <li><a className="redesign-a" href = "#low-fidelity-wireframes">Low-fidelity for various screen sizes</a></li>
+                            <li><a className="redesign-a" href = "#low-fidelity-wireframes">Low-fidelity wireframes</a></li>
                             <li><a className="redesign-a" href = "#design-guide">Visual design style guide</a></li>
-                            <li><a className="redesign-a" href = "#high-fidelity-prototypes">High-fidelity for various screen sizes</a></li>
+                            <li><a className="redesign-a" href = "#high-fidelity-prototypes">High-fidelity prototypes</a></li>
                             <li><a className="redesign-a" href = "#responsive-redesign">Responsive website</a></li>
                         </ul>
                     </div>
@@ -176,7 +176,7 @@ const Redesign = () => {
                             <img src = "images/redesign/problem-solved.png" alt = "no accessibility problem after redesign" width = "800px" height="auto" style = {{ border : "2px solid #000000" }} />
                             <figcaption style= {{paddingTop: "10px", width: "804px", textAlign: "center"}}><i>Figure12: No accessibility problem can be found using <a href = "https://wave.webaim.org/" target = "_blank" rel="noreferrer">WAVE</a> after redesign</i></figcaption>
                         </figure>
-                        
+
                         <p className = "redesign-section-text-font" style = {{ paddingTop : "40px" }}>
                             After the redesign and development, the new webpage has no accessibility problem anymore <i>(Figure12)</i>. Each image/icon has a alternative text, each link is very clear even in different background (because I change the link color according to the background color).
                         </p>

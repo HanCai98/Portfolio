@@ -22,7 +22,7 @@ const IterativeDesign = () => {
                     <div className = "iterative-meta-text-font">
                         <ul>
                             <li style={{paddingTop: "20px"}}><a className = "iterative-a" href = "#Introduction">Introduction</a></li>
-                            <li style={{paddingTop: "20px"}}><a className = "iterative-a" href = "#Initial-Sketches">Initial Sketches for mobile app</a></li>
+                            <li style={{paddingTop: "20px"}}><a className = "iterative-a" href = "#Initial-Sketches">Initial Sketches</a></li>
                             <li style={{paddingTop: "20px"}}><a className = "iterative-a" href = "#Combined-Wireframe">Combined Wireframe</a></li>
                             <li style={{paddingTop: "20px"}}><a className = "iterative-a" href = "#Mockup">Interactive Hi-Fi Mockup</a></li>
                             <li style={{paddingTop: "20px"}}><a className = "iterative-a" href = "#User-Test">User Testing</a></li>
