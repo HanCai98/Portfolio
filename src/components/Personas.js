@@ -1,7 +1,9 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import '../styles/personas.css'
 
 const Personas = () => {
+    const navigate = useNavigate();
     
     return (
         <div className="personas-container">
@@ -12,13 +14,13 @@ const Personas = () => {
 
                 <div className = "personas-about">
                     <p><a className="personas-a" href="/">Home</a></p>
-                    <p><a className="personas-a" href="works">Works</a></p>
+                    <button className="text-button" onClick={() => navigate("/works")}>Works</button>
                 </div>
             </div>
 
             <div className="personas-content">
                 <div className = "personas-flex-container-col-meta">
-                    <h1 className = "personas-meta-title-font"><a className="personas-a" href = "personas">Bus Bike Rack</a></h1>
+                    <button className="text-button" onClick={() => window.scrollTo(0, 0)}>Bus Bike Rack</button>
                     <div className = "personas-meta-text-font">
                         <ul>
                             <li style = {{ paddingTop : "20px" }}><a className="personas-a" href = "#Context">Context</a></li>

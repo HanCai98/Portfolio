@@ -1,8 +1,10 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import '../styles/redesign.css'
 
 const Redesign = () => {
-    
+    const navigate = useNavigate();
+
     return (
         <div className="redesign-container">
             <div className = "redesign-navigation-bar">
@@ -12,13 +14,13 @@ const Redesign = () => {
 
                 <div className = "redesign-about">
                     <p><a className="redesign-a" href="/">Home</a></p>
-                    <p><a className="redesign-a" href="/works">Works</a></p>
+                    <button className="text-button" onClick={() => navigate("/works")}>Works</button>
                 </div>
             </div>
 
             <div className = "redesign-flex-container-row">
                 <div className = "redesign-flex-container-col-meta">
-                    <h1 className = "redesign-meta-title-font"><a className="redesign-a" href="/redesign">Responsive Redesign</a></h1>
+                    <button className="text-button" onClick={() => window.scrollTo(0, 0)}>Responsive Redesign</button>
                     <div className = "redesign-meta-text-font">
                         <ul>
                             <li><a className="redesign-a" href = "#context">Context</a></li>

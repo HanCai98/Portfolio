@@ -1,7 +1,9 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import '../styles/development.css'
 
 const Development = () => {
+    const navigate = useNavigate();
 
     return (
         <div className ="development-container">
@@ -12,13 +14,13 @@ const Development = () => {
 
                 <div className = "development-about">
                     <p><a className = "development-a" href="/">Home</a></p>
-                    <p><a className = "development-a" href="/works">Works</a></p>
+                    <button className="text-button" onClick={() => navigate("/works")}>Works</button>
                 </div>
             </div>
 
             <div className = "development-flex-container-row">
                 <div className = "development-flex-container-col-meta">
-                    <h1 className = "development-meta-title-font"><a className="development-a" href="/development">React Development</a></h1>
+                    <button className="text-button" onClick={() => window.scrollTo(0, 0)}>React Development</button>
                     <div className = "development-meta-text-font">
                         <ul>
                             <li style={{paddingTop: "20px"}}><a className = "development-a" href = "#Context">Context</a></li>

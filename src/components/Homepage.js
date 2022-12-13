@@ -13,7 +13,7 @@ const Homepage = () => {
                 </div>
 
                 <div className = "home-about">
-                    <p><a className="home-a" href="/works">Works</a></p>
+                    <button className="text-button" onClick={() => navigate("/works")}>Works</button>
                     <p><a className="home-a" href="https://cs.brown.edu/" target = "_blank" rel="noreferrer">Graduate School</a></p>
                 </div>
             </div>

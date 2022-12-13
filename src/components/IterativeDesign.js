@@ -1,7 +1,9 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import '../styles/iterative.css'
 
 const IterativeDesign = () => {
+    const navigate = useNavigate();
 
     return (
         <div className ="iterative-container">
@@ -12,13 +14,13 @@ const IterativeDesign = () => {
 
                 <div className = "iterative-about">
                     <p><a className = "iterative-a" href="/">Home</a></p>
-                    <p><a className = "iterative-a" href="/works">Works</a></p>
+                    <button className="text-button" onClick={() => navigate("/works")}>Works</button>
                 </div>
             </div>
 
             <div className = "iterative-flex-container-row">
                 <div className = "iterative-flex-container-col-meta">
-                    <h1 className = "iterative-meta-title-font"><a className="iterative-a" href="/iterative-design">Iterative Design</a></h1>
+                    <button className="text-button" onClick={() => window.scrollTo(0, 0)}>Iterative Design</button>
                     <div className = "iterative-meta-text-font">
                         <ul>
                             <li style={{paddingTop: "20px"}}><a className = "iterative-a" href = "#Introduction">Introduction</a></li>
