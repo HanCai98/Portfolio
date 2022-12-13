@@ -90,7 +90,7 @@ const Redesign = () => {
                     <div style={{paddingBottom: "30px"}}>
                         <h1 id = "low-fidelity-wireframes" className = "redesign-section-title-font" style = {{paddingTop: "50px"}}>Low-Fidelity Wireframes</h1>
                         <figure style = {{paddingTop: "50px"}}>
-                            <img src = "images/redesign/LowFi-desktop.png" alt = "Low-fidelity wireframe for desktop" width = "850px" height="auto" style = {{ border : "2px solid #000000" }} />
+                            <img src = "images/redesign/LowFi-desktop.png" alt = "Low-fidelity wireframe for desktop" width = "850px" height="auto" />
                             <figcaption style= {{paddingTop: "10px", width: "850px", textAlign: "center"}}><i>Figure5: Low-Fidelity Wireframe for desktop</i></figcaption>
                         </figure>
                         <p className = "redesign-section-text-font" style = {{ paddingTop : "40px" }}>
@@ -98,7 +98,7 @@ const Redesign = () => {
                         </p>
 
                         <figure style = {{paddingTop: "50px"}}>
-                            <center><img src = "images/redesign/LowFi-pad.png" alt = "Low-fidelity wireframe for tablet" width = "600px" height="auto" style = {{ border : "2px solid #000000" }} /></center>
+                            <center><img src = "images/redesign/LowFi-pad.png" alt = "Low-fidelity wireframe for tablet" width = "600px" height="auto" /></center>
                             <figcaption style= {{paddingTop: "10px", width: "850px", textAlign: "center"}}><i>Figure6: Low-Fidelity Wireframe for tablet</i></figcaption>
                         </figure>
                         <p className = "redesign-section-text-font" style = {{ paddingTop : "40px" }}>
@@ -106,7 +106,7 @@ const Redesign = () => {
                         </p>
 
                         <figure style = {{paddingTop: "50px"}}>
-                            <center><img src = "images/redesign/LowFi-phone.png" alt = "Low-fidelity wireframe for mobile phone" width = "400px" height="auto" style = {{ border : "2px solid #000000" }} /></center>
+                            <center><img src = "images/redesign/LowFi-phone.png" alt = "Low-fidelity wireframe for mobile phone" width = "400px" height="auto" /></center>
                             <figcaption style= {{paddingTop: "10px", width: "850px", textAlign: "center"}}><i>Figure7: Low-Fidelity Wireframe for mobile phone</i></figcaption>
                         </figure>
 
