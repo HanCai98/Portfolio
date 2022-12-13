@@ -5,7 +5,6 @@ import '../styles/works.css'
 const Works = (props) => {
     const navigate = useNavigate();
 
-
     return (
         <div className = "works-flex-container">
             <div className = "works-navigation-bar">
@@ -42,9 +41,7 @@ const Works = (props) => {
 
                 <di className = "works-section">
                     <div className = "work grow blur" style={{marginRight:"9.5%"}}>
-                        <a href="/personas">
-                            <img className='work-image' src="/images/bus.jpeg" alt='a bus with bike rack'/>
-                        </a>
+                        <img className='work-image' src="/images/bus.jpeg" alt='a bus with bike rack' onClick={() => navigate("/personas")}/>
                         <div className="work-description">
                             <div className="work-title">
                                 <p>Personas & Storyboarding</p>    
@@ -63,9 +60,7 @@ const Works = (props) => {
                     </div>
 
                     <div className = "work grow blur">
-                        <a href="/redesign">
-                            <img className='work-image' src="/images/kindergarten.jpeg" alt='children smiling'/>
-                        </a>
+                        <img className='work-image' src="/images/kindergarten.jpeg" alt='children smiling' onClick={() => navigate("/redesign")}/>
                         <div className="work-description">
                             <div className="work-title">
                                 <p>Responsive Redesign</p>    
@@ -84,9 +79,7 @@ const Works = (props) => {
                     </div>
 
                     <div className = "work grow blur" style={{marginRight:"9.5%"}}>
-                        <a href="/iterative-design">
-                            <img className='work-image' src="/images/bananas.png" alt='grocery delivery'/>
-                        </a>
+                        <img className='work-image' src="/images/bananas.png" alt='grocery delivery' onClick={() => navigate("/iterative-design")}/>
                         <div className="work-description">
                             <div className="work-title">
                                 <p>Iterative Design</p>    
@@ -104,9 +97,7 @@ const Works = (props) => {
                     </div>
 
                     <div className = "work grow blur">
-                        <a href="/development">
-                            <img className='work-image' src="/images/grocery.jpeg" alt='shopping at grocery store'/>
-                        </a>
+                        <img className='work-image' src="/images/grocery.jpeg" alt='shopping at grocery store' onClick={() => navigate("/development")}/>
                         <div className="work-description">
                             <div className="work-title">
                                 <p>React Development</p>    

@@ -2,6 +2,7 @@ import React from "react";
 import '../styles/personas.css'
 
 const Personas = () => {
+    
     return (
         <div className="personas-container">
             <div className = "personas-navigation-bar">
@@ -11,13 +12,13 @@ const Personas = () => {
 
                 <div className = "personas-about">
                     <p><a className="personas-a" href="/">Home</a></p>
-                    <p><a className="personas-a" href="/works">Works</a></p>
+                    <p><a className="personas-a" href="works">Works</a></p>
                 </div>
             </div>
 
             <div className="personas-content">
                 <div className = "personas-flex-container-col-meta">
-                    <h1 className = "personas-meta-title-font"><a className="personas-a" href = "/personas">Bus Bike Rack</a></h1>
+                    <h1 className = "personas-meta-title-font"><a className="personas-a" href = "personas">Bus Bike Rack</a></h1>
                     <div className = "personas-meta-text-font">
                         <ul>
                             <li style = {{ paddingTop : "20px" }}><a className="personas-a" href = "#Context">Context</a></li>
