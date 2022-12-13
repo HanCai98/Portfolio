@@ -117,7 +117,7 @@ const IterativeDesign = () => {
 
                         <figure style={{paddingTop: "50px"}}>
                             <img src = "images/iterative/screenshot.png" alt = "Screenshots from hi-fi prototype" width = "850px" height = "auto" />
-                            <figcaption style= {{paddingTop: "10px", width: "850px", textAlign: "center"}}><i>Figure6: Screenshots from hi-fi prototype</i></figcaption>
+                            <figcaption style= {{paddingTop: "10px", width: "850px", textAlign: "center"}}><i>Figure7: Screenshots from hi-fi prototype</i></figcaption>
                         </figure>
                     </div>
 
